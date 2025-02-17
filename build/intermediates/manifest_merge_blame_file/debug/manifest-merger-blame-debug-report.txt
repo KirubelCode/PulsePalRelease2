@@ -1,0 +1,393 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.movesense.showcaseapp"
+4    android:versionCode="1091901"
+5    android:versionName="1.9.19" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <queries>
+11-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:4:5-12:15
+12
+13<!--             File browser -->
+14        <intent>
+14-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:8:9-11:18
+15            <action android:name="android.intent.action.GET_CONTENT" />
+15-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:9:13-72
+15-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:9:21-69
+16
+17            <data android:mimeType="application/zip" />
+17-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:10:13-56
+17-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:10:19-53
+18        </intent>
+19    </queries>
+20
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:13:5-80
+21-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:13:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:14:5-79
+22-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:14:22-77
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:15:5-66
+23-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:15:22-64
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:16:5-78
+24-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:16:22-76
+25    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+25-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:17:5-70
+25-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:17:22-68
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:18:5-76
+26-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:18:22-74
+27
+28    <!-- Permissions options for the `bluetooth` group -->
+29    <uses-permission
+29-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:21:5-68
+30        android:name="android.permission.BLUETOOTH"
+30-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:21:22-65
+31        android:maxSdkVersion="30" />
+31-->[no.nordicsemi.android:dfu:2.9.0] C:\Users\kirut\.gradle\caches\transforms-3\2765eb1c6223f65a0d693d2182325304\transformed\jetified-dfu-2.9.0\AndroidManifest.xml:22:9-35
+32    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+32-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:22:5-73
+32-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:22:22-70
+33    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+33-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:23:5-76
+33-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:23:22-73
+34    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+34-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:24:5-81
+34-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:24:22-78
+35    <uses-permission
+35-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:25:5-125
+36        android:name="android.permission.ACCESS_FINE_LOCATION"
+36-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:25:22-76
+37        android:usesPermissionFlags="neverForLocation" />
+37-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:25:77-123
+38
+39    <!-- Permissions for older devices (Android <=11) -->
+40    <uses-permission
+40-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:28:5-30:38
+41        android:name="android.permission.BLUETOOTH_ADMIN"
+41-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:29:9-58
+42        android:maxSdkVersion="30" />
+42-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:30:9-35
+43
+44    <uses-feature
+44-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:32:5-34:34
+45        android:name="android.hardware.bluetooth_le"
+45-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:33:9-53
+46        android:required="true" />
+46-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:34:9-32
+47
+48    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+48-->[com.polidea.rxandroidble2:rxandroidble:1.10.2] C:\Users\kirut\.gradle\caches\transforms-3\16e6216b4b2d4a001234eded65254192\transformed\jetified-rxandroidble-1.10.2\AndroidManifest.xml:14:5-88
+48-->[com.polidea.rxandroidble2:rxandroidble:1.10.2] C:\Users\kirut\.gradle\caches\transforms-3\16e6216b4b2d4a001234eded65254192\transformed\jetified-rxandroidble-1.10.2\AndroidManifest.xml:14:29-85
+49
+50    <permission
+50-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+51        android:name="com.movesense.showcaseapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+51-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+52        android:protectionLevel="signature" />
+52-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+53
+54    <uses-permission android:name="com.movesense.showcaseapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+54-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+54-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+55
+56    <application
+56-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:36:5-166:19
+57        android:name="com.movesense.showcaseapp.SampleApp"
+57-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:37:9-34
+58        android:allowBackup="true"
+58-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:38:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+60        android:debuggable="true"
+61        android:extractNativeLibs="true"
+62        android:icon="@mipmap/ic_launcher"
+62-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:39:9-43
+63        android:label="@string/app_name"
+63-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:40:9-41
+64        android:supportsRtl="true"
+64-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:41:9-35
+65        android:testOnly="true"
+66        android:theme="@style/AppTheme" >
+66-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:42:9-40
+67        <activity
+67-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:43:9-45:51
+68            android:name="com.movesense.showcaseapp.section_01_movesense.tests.LedTestActivity"
+68-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:44:13-71
+69            android:screenOrientation="portrait" />
+69-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:45:13-49
+70        <activity
+70-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:46:9-48:51
+71            android:name="com.movesense.showcaseapp.section_01_movesense.tests.LinearAccelerationTestActivity"
+71-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:47:13-86
+72            android:screenOrientation="portrait" />
+72-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:48:13-49
+73        <activity
+73-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:49:9-51:51
+74            android:name="com.movesense.showcaseapp.section_01_movesense.tests.HeartRateTestActivity"
+74-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:50:13-77
+75            android:screenOrientation="portrait" />
+75-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:51:13-49
+76        <activity
+76-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:52:9-54:51
+77            android:name="com.movesense.showcaseapp.section_01_movesense.tests.TemperatureTestActivity"
+77-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:53:13-79
+78            android:screenOrientation="portrait" />
+78-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:54:13-49
+79        <activity
+79-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:55:9-57:51
+80            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MagneticFieldTestActivity"
+80-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:56:13-81
+81            android:screenOrientation="portrait" />
+81-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:57:13-49
+82        <activity
+82-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:58:9-60:51
+83            android:name="com.movesense.showcaseapp.section_01_movesense.tests.AngularVelocityActivity"
+83-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:59:13-79
+84            android:screenOrientation="portrait" />
+84-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:60:13-49
+85        <activity
+85-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:61:9-63:51
+86            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MultiSubscribeActivity"
+86-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:62:13-78
+87            android:screenOrientation="portrait" />
+87-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:63:13-49
+88        <activity
+88-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:64:9-66:51
+89            android:name="com.movesense.showcaseapp.google_drive.SendLogsToGoogleDriveActivity"
+89-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:65:13-71
+90            android:screenOrientation="portrait" />
+90-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:66:13-49
+91
+92        <provider
+93            android:name="androidx.core.content.FileProvider"
+93-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:69:13-62
+94            android:authorities="com.movesense.showcaseapp"
+94-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:70:13-51
+95            android:exported="false"
+95-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:71:13-37
+96            android:grantUriPermissions="true" >
+96-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:72:13-47
+97            <meta-data
+97-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:73:13-75:62
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:74:17-67
+99                android:resource="@xml/file_provider_paths" />
+99-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:75:17-60
+100        </provider>
+101
+102        <service
+102-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:78:9-82:62
+103            android:name="com.movesense.showcaseapp.section_03_dfu.DfuService"
+103-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:79:13-54
+104            android:enabled="true"
+104-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:80:13-35
+105            android:exported="true"
+105-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:81:13-36
+106            android:foregroundServiceType="connectedDevice" />
+106-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:82:13-60
+107
+108        <receiver
+108-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:84:9-91:20
+109            android:name="com.movesense.showcaseapp.adb.AdbBridge"
+109-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:85:13-42
+110            android:enabled="true"
+110-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:86:13-35
+111            android:exported="true" >
+111-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:87:13-36
+112            <intent-filter>
+112-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:88:13-90:29
+113                <action android:name="android.intent.action.MOVESENSE" />
+113-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:89:17-73
+113-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:89:25-71
+114            </intent-filter>
+115        </receiver>
+116
+117        <activity
+117-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:93:9-103:20
+118            android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
+118-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:94:13-65
+119            android:exported="true"
+119-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:95:13-36
+120            android:screenOrientation="portrait" >
+120-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:96:13-49
+121            <intent-filter>
+121-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:97:13-102:29
+122                <action android:name="android.intent.action.MAIN" />
+122-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:98:17-68
+122-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:98:25-66
+123                <action android:name="android.intent.action.MY_ACTION" />
+123-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:99:17-73
+123-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:99:25-71
+124
+125                <category android:name="android.intent.category.LAUNCHER" />
+125-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:101:17-76
+125-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:101:27-74
+126            </intent-filter>
+127        </activity>
+128        <activity
+128-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:104:9-106:51
+129            android:name="com.movesense.showcaseapp.section_01_movesense.MovesenseActivity"
+129-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:105:13-67
+130            android:screenOrientation="portrait" />
+130-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:106:13-49
+131        <activity
+131-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:107:9-109:51
+132            android:name="com.movesense.showcaseapp.section_02_multi_connection.connection.MultiConnectionActivity"
+132-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:108:13-91
+133            android:screenOrientation="portrait" />
+133-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:109:13-49
+134        <activity
+134-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:110:9-112:51
+135            android:name="com.movesense.showcaseapp.section_04_saved_data.SavedDataActivity"
+135-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:111:13-68
+136            android:screenOrientation="portrait" />
+136-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:112:13-49
+137        <activity
+137-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:113:9-115:51
+138            android:name="com.movesense.showcaseapp.section_06_about.AboutActivity"
+138-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:114:13-59
+139            android:screenOrientation="portrait" />
+139-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:115:13-49
+140        <activity
+140-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:116:9-119:20
+141            android:name="com.movesense.showcaseapp.section_01_movesense.sensors.sensors_list.SensorListActivity"
+141-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:117:13-89
+142            android:screenOrientation="portrait" >
+142-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:118:13-49
+143        </activity>
+144        <activity
+144-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:120:9-123:20
+145            android:name="com.movesense.showcaseapp.section_03_dfu.DfuActivity2"
+145-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:121:13-56
+146            android:screenOrientation="portrait" >
+146-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:122:13-49
+147        </activity>
+148        <activity
+148-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:124:9-127:20
+149            android:name="com.movesense.showcaseapp.section_02_multi_connection.sensor_usage.MultiSensorUsageActivity"
+149-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:125:13-94
+150            android:screenOrientation="portrait" >
+150-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:126:13-49
+151        </activity>
+152        <activity
+152-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:128:9-132:20
+153            android:name="com.movesense.showcaseapp.section_01_movesense.tests.EcgActivity"
+153-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:129:13-67
+154            android:configChanges="keyboardHidden|orientation|screenSize"
+154-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:131:13-74
+155            android:screenOrientation="portrait" >
+155-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:130:13-49
+156        </activity>
+157        <activity
+157-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:134:9-137:20
+158            android:name="com.movesense.showcaseapp.section_01_movesense.tests.BatteryActivity"
+158-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:135:13-71
+159            android:screenOrientation="portrait" >
+159-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:136:13-49
+160        </activity>
+161        <activity
+161-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:138:9-141:20
+162            android:name="com.movesense.showcaseapp.section_01_movesense.tests.AppInfoActivity"
+162-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:139:13-71
+163            android:screenOrientation="portrait" >
+163-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:140:13-49
+164        </activity>
+165        <activity
+165-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:142:9-145:20
+166            android:name="com.movesense.showcaseapp.section_01_movesense.tests.ImuActivity"
+166-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:143:13-67
+167            android:screenOrientation="portrait" >
+167-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:144:13-49
+168        </activity>
+169
+170        <receiver
+170-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:147:9-154:20
+171            android:name="com.movesense.showcaseapp.bluetooth.BluetoothStatusReceiver"
+171-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:148:13-62
+172            android:enabled="true"
+172-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:149:13-35
+173            android:exported="false" >
+173-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:150:13-37
+174            <intent-filter>
+174-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:151:13-153:29
+175                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+175-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:152:17-88
+175-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:152:25-86
+176            </intent-filter>
+177        </receiver>
+178
+179        <activity
+179-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:156:9-159:20
+180            android:name="com.movesense.showcaseapp.section_01_movesense.device_settings.DeviceSettingsActivity"
+180-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:157:13-88
+181            android:screenOrientation="portrait" >
+181-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:158:13-49
+182        </activity>
+183        <activity android:name="com.movesense.showcaseapp.BaseActivity" >
+183-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:160:9-161:20
+183-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:160:19-47
+184        </activity>
+185        <activity
+185-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:162:9-165:20
+186            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MemoryDiagnosticActivity"
+186-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:163:13-80
+187            android:screenOrientation="portrait" >
+187-->D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\AndroidManifest.xml:164:13-49
+188        </activity>
+189        <activity
+189-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+190            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+190-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+191            android:exported="false"
+191-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+192            android:label=""
+192-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+193            android:theme="@style/EasyPermissions.Transparent" />
+193-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+194        <activity
+194-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+195            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+195-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+196            android:excludeFromRecents="true"
+196-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+198-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+199        <!--
+200            Service handling Google Sign-In user revocation. For apps that do not integrate with
+201            Google Sign-In, this service will never be started.
+202        -->
+203        <service
+203-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+204            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+204-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+205            android:exported="true"
+205-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+206            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+206-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+207
+208        <activity
+208-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+209            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+209-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+211-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+212
+213        <meta-data
+213-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+214            android:name="com.google.android.gms.version"
+214-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+215            android:value="@integer/google_play_services_version" />
+215-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+216    </application>
+217
+218</manifest>

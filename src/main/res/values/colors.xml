@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282829</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#5f72d8</color>
+
+    <color name="inactiveTintColor">#7d211e1e</color>
+
+    <color name="colorBackground">#24212a</color>
+    <color name="colorText">#FFF</color>
+    <color name="colorRed">#dad739</color>
+    <!--<color name="colorRed">#d3083b</color>-->
+    <color name="colorGreen">#309d71</color>
+
+    <color name="colorMainViewCardBackground">#302e3c</color>
+</resources>
