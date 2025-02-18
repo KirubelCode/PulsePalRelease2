@@ -9,8 +9,6 @@
         android:targetSdkVersion="34" />
 
     <queries>
-
-        <!-- File browser -->
         <intent>
             <action android:name="android.intent.action.GET_CONTENT" />
 
@@ -24,8 +22,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-
-    <!-- Permissions options for the `bluetooth` group -->
     <uses-permission
         android:name="android.permission.BLUETOOTH"
         android:maxSdkVersion="30" />
@@ -35,8 +31,6 @@
     <uses-permission
         android:name="android.permission.ACCESS_FINE_LOCATION"
         android:usesPermissionFlags="neverForLocation" />
-
-    <!-- Permissions for older devices (Android <=11) -->
     <uses-permission
         android:name="android.permission.BLUETOOTH_ADMIN"
         android:maxSdkVersion="30" />
@@ -64,128 +58,28 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.LedTestActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.LinearAccelerationTestActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.HeartRateTestActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.TemperatureTestActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MagneticFieldTestActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.AngularVelocityActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MultiSubscribeActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.google_drive.SendLogsToGoogleDriveActivity"
-            android:screenOrientation="portrait" />
 
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.movesense.showcaseapp"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_provider_paths" />
-        </provider>
-
-        <service
-            android:name="com.movesense.showcaseapp.section_03_dfu.DfuService"
-            android:enabled="true"
-            android:exported="true"
-            android:foregroundServiceType="connectedDevice" />
-
-        <receiver
-            android:name="com.movesense.showcaseapp.adb.AdbBridge"
-            android:enabled="true"
+        <!-- Signup Activity (Now the launcher activity) -->
+        <activity
+            android:name="com.movesense.showcaseapp.section_00_mainView.SignupActivity"
             android:exported="true" >
             <intent-filter>
-                <action android:name="android.intent.action.MOVESENSE" />
-            </intent-filter>
-        </receiver>
-
-        <activity
-            android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" >
-            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.MY_ACTION" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.MovesenseActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_02_multi_connection.connection.MultiConnectionActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_04_saved_data.SavedDataActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_06_about.AboutActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.sensors.sensors_list.SensorListActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.movesense.showcaseapp.section_03_dfu.DfuActivity2"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.movesense.showcaseapp.section_02_multi_connection.sensor_usage.MultiSensorUsageActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.EcgActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.BatteryActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.AppInfoActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.ImuActivity"
-            android:screenOrientation="portrait" >
-        </activity>
 
-        <receiver
-            android:name="com.movesense.showcaseapp.bluetooth.BluetoothStatusReceiver"
-            android:enabled="true"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
-            </intent-filter>
-        </receiver>
+        <!-- Login Activity -->
+        <activity
+            android:name="com.movesense.showcaseapp.section_00_mainView.LoginActivity"
+            android:exported="true" />
 
+        <!-- Main Dashboard -->
         <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.device_settings.DeviceSettingsActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity android:name="com.movesense.showcaseapp.BaseActivity" >
-        </activity>
-        <activity
-            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MemoryDiagnosticActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
             android:exported="false"

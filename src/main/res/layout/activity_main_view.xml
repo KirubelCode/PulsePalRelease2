@@ -5,181 +5,104 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
-    android:padding="8dp">
+    android:background="@android:color/white"
+    android:padding="16dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:text="PulsePal Live Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <!-- Current Heart Rate -->
+    <TextView
+        android:id="@+id/currentHeartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Heart Rate: -- bpm"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/dashboardTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Start Exercise Session Button -->
+    <Button
+        android:id="@+id/startExerciseSessionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Start Exercise Session"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/currentHeartRate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- View Post Workout Results Button -->
+    <Button
+        android:id="@+id/postWorkoutResultsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Post Workout Results"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/startExerciseSessionButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/goalTrackingButton" />
+
+    <!-- Goal Tracking Button -->
+    <Button
+        android:id="@+id/goalTrackingButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Goal Tracking"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/startExerciseSessionButton"
+        app:layout_constraintStart_toEndOf="@id/postWorkoutResultsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Sign Out Button -->
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp" />
 
-        <!--1-->
-        <LinearLayout
-            android:id="@+id/mainView_ll1"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/mainView_card_height"
-            android:orientation="horizontal"
-            android:weightSum="2">
-
-            <RelativeLayout
-                android:id="@+id/mainView_movesense_Ll"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
-                android:layout_weight="1"
-                android:background="@color/colorMainViewCardBackground"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_above="@id/mainView_movesense_text"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/flash_circle"/>
-
-                <TextView
-                    android:id="@+id/mainView_movesense_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentRight="true"
-                    android:background="#3d545252"
-                    android:gravity="center"
-                    android:padding="6dp"
-                    android:text="Movesense"
-                    android:textColor="@color/colorText"
-                    android:textSize="16sp"/>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/mainView_multiConnection_Ll"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
-                android:layout_weight="1"
-                android:background="@color/colorMainViewCardBackground"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_above="@id/mainView_multiConnection_text"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/google_circles"/>
-
-
-                <TextView
-                    android:id="@+id/mainView_multiConnection_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentRight="true"
-                    android:background="#3d545252"
-                    android:gravity="center"
-                    android:padding="6dp"
-                    android:text="Multi Connection"
-                    android:textColor="@color/colorText"
-                    android:textSize="16sp"/>
-
-            </RelativeLayout>
-        </LinearLayout>
-
-        <!--2-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/mainView_card_height"
-            android:orientation="horizontal"
-            android:weightSum="2">
-
-            <RelativeLayout
-                android:id="@+id/mainView_dfu_Ll"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
-                android:layout_weight="1"
-                android:background="@color/colorMainViewCardBackground"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_above="@id/mainView_dfu_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/ic_dfu_feature"/>
-
-                <TextView
-                    android:id="@+id/mainView_dfu_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentRight="true"
-                    android:background="#3d545252"
-                    android:gravity="center"
-                    android:padding="6dp"
-                    android:text="DFU"
-                    android:textColor="@color/colorText"
-                    android:textSize="16sp"/>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/mainView_savedData_Ll"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
-                android:layout_weight="1"
-                android:background="@color/colorMainViewCardBackground"
-                android:gravity="center">
-
-                <ImageView
-                    android:scaleType="fitCenter"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_above="@id/mainView_savedData_text"
-                    android:src="@drawable/baseline_poll_24"/>
-
-                <TextView
-                    android:id="@+id/mainView_savedData_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentRight="true"
-                    android:background="#3d545252"
-                    android:gravity="center"
-                    android:padding="6dp"
-                    android:text="@string/Saved_Data"
-                    android:textColor="@color/colorText"
-                    android:textSize="16sp"/>
-
-            </RelativeLayout>
-        </LinearLayout>
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/mainView_libraryVersion_tv"
+    <!-- Settings Button -->
+    <Button
+        android:id="@+id/settingsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:text="@string/library_version"
+        android:text="Settings"
+        android:backgroundTint="@android:color/darker_gray"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
-    <TextView
-        android:id="@+id/mainView_appVersion_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:text="@string/application_version"
-        android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@id/mainView_libraryVersion_tv"/>
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,10 +15,10 @@ com.movesense.showcaseapp-jetified-annotation-experimental-1.3.0-13 C:\Users\kir
 com.movesense.showcaseapp-jetified-easypermissions-3.0.0-14 C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\res
 com.movesense.showcaseapp-jetified-play-services-auth-17.0.0-15 C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\res
 com.movesense.showcaseapp-appcompat-1.1.0-16 C:\Users\kirut\.gradle\caches\transforms-3\f4ff396adbae0528cd2e81074fdc5faf\transformed\appcompat-1.1.0\res
-com.movesense.showcaseapp-pngs-17 D:\college\movesense-mobile-lib\android\Showcaseapp\build\generated\res\pngs\debug
-com.movesense.showcaseapp-resValues-18 D:\college\movesense-mobile-lib\android\Showcaseapp\build\generated\res\resValues\debug
-com.movesense.showcaseapp-mergeDebugResources-19 D:\college\movesense-mobile-lib\android\Showcaseapp\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.movesense.showcaseapp-mergeDebugResources-20 D:\college\movesense-mobile-lib\android\Showcaseapp\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.movesense.showcaseapp-merged_res-21 D:\college\movesense-mobile-lib\android\Showcaseapp\build\intermediates\merged_res\debug
-com.movesense.showcaseapp-debug-22 D:\college\movesense-mobile-lib\android\Showcaseapp\src\debug\res
-com.movesense.showcaseapp-main-23 D:\college\movesense-mobile-lib\android\Showcaseapp\src\main\res
+com.movesense.showcaseapp-pngs-17 D:\college\PulsePalV1\Project2025\build\generated\res\pngs\debug
+com.movesense.showcaseapp-resValues-18 D:\college\PulsePalV1\Project2025\build\generated\res\resValues\debug
+com.movesense.showcaseapp-mergeDebugResources-19 D:\college\PulsePalV1\Project2025\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.movesense.showcaseapp-mergeDebugResources-20 D:\college\PulsePalV1\Project2025\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.movesense.showcaseapp-merged_res-21 D:\college\PulsePalV1\Project2025\build\intermediates\merged_res\debug
+com.movesense.showcaseapp-debug-22 D:\college\PulsePalV1\Project2025\src\debug\res
+com.movesense.showcaseapp-main-23 D:\college\PulsePalV1\Project2025\src\main\res

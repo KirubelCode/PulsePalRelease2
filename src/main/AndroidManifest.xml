@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.movesense.showcaseapp">
+
     <queries>
-        <!--
-            File browser
-        -->
         <intent>
             <action android:name="android.intent.action.GET_CONTENT" />
             <data android:mimeType="application/zip" />
         </intent>
     </queries>
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-
-    <!-- Permissions options for the `bluetooth` group -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
 
-    <!-- Permissions for older devices (Android <=11) -->
-    <uses-permission
-        android:name="android.permission.BLUETOOTH_ADMIN"
-        android:maxSdkVersion="30" />
-
-    <uses-feature
-        android:name="android.hardware.bluetooth_le"
-        android:required="true"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
 
     <application
         android:name=".SampleApp"
@@ -40,129 +31,27 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".section_01_movesense.tests.LedTestActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.tests.LinearAccelerationTestActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.tests.HeartRateTestActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.tests.TemperatureTestActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.tests.MagneticFieldTestActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.tests.AngularVelocityActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.tests.MultiSubscribeActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".google_drive.SendLogsToGoogleDriveActivity"
-            android:screenOrientation="portrait"/>
 
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="${applicationId}"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_provider_paths"/>
-        </provider>
-
-        <service
-            android:name=".section_03_dfu.DfuService"
-            android:enabled="true"
-            android:exported="true"
-            android:foregroundServiceType="connectedDevice"/>
-
-        <receiver
-            android:name=".adb.AdbBridge"
-            android:enabled="true"
+        <!-- Signup Activity (Now the launcher activity) -->
+        <activity
+            android:name=".section_00_mainView.SignupActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MOVESENSE"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </receiver>
+        </activity>
 
+        <!-- Login Activity -->
+        <activity
+            android:name=".section_00_mainView.LoginActivity"
+            android:exported="true" />
+
+        <!-- Main Dashboard -->
         <activity
             android:name=".section_00_mainView.MainViewActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="android.intent.action.MY_ACTION"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".section_01_movesense.MovesenseActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_02_multi_connection.connection.MultiConnectionActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_04_saved_data.SavedDataActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_06_about.AboutActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.sensors.sensors_list.SensorListActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity
-            android:name=".section_03_dfu.DfuActivity2"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity
-            android:name=".section_02_multi_connection.sensor_usage.MultiSensorUsageActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity
-            android:name=".section_01_movesense.tests.EcgActivity"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden|orientation|screenSize">
-        </activity>
-
-        <activity
-            android:name=".section_01_movesense.tests.BatteryActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity
-            android:name=".section_01_movesense.tests.AppInfoActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity
-            android:name=".section_01_movesense.tests.ImuActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <receiver
-            android:name=".bluetooth.BluetoothStatusReceiver"
-            android:enabled="true"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
-            </intent-filter>
-        </receiver>
-
-        <activity
-            android:name=".section_01_movesense.device_settings.DeviceSettingsActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity android:name=".BaseActivity">
-        </activity>
-        <activity
-            android:name=".section_01_movesense.tests.MemoryDiagnosticActivity"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

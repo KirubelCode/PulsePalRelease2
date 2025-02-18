@@ -30,6 +30,7 @@ anim fragment_fade_exit
 anim fragment_fast_out_extra_slow_in
 anim fragment_open_enter
 anim fragment_open_exit
+array gender_options
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -855,8 +856,10 @@ id add_movesense1Ll
 id add_movesense2Ll
 id adjust_height
 id adjust_width
+id ageEditText
 id alertTitle
 id all
+id alreadyHaveAccount
 id always
 id angularVelocity_lineChart
 id async
@@ -882,9 +885,11 @@ id connected_device_name_textView
 id connected_device_swVersion_textView
 id content
 id contentPanel
+id currentHeartRate
 id custom
 id customPanel
 id dark
+id dashboardTitle
 id decor_content_parent
 id default_activity_button
 id device_list
@@ -925,6 +930,7 @@ id ecg_spinnerText
 id ecg_switchContainer
 id edit_query
 id edit_text_id
+id emailEditText
 id end
 id end_padder
 id expand_activities_button
@@ -934,6 +940,9 @@ id fill_horizontal
 id fill_vertical
 id forever
 id fragment_container_view_tag
+id fullNameEditText
+id genderSpinner
+id goalTrackingButton
 id gone
 id googleDriveItem
 id group_divider
@@ -945,6 +954,7 @@ id heart_rate_bpm_value_textView
 id heart_rate_rr_value_textView
 id heart_rate_switch
 id heart_rate_textView
+id heightEditText
 id hide_ime_id
 id home
 id homeAsUp
@@ -971,22 +981,13 @@ id linearacc_y_axis_textView
 id linearacc_z_axis_textView
 id listMode
 id list_item
+id loginButton
+id loginTitle
 id logsFileListView
 id magn_x_axis_textView
 id magn_y_axis_textView
 id magn_z_axis_textView
 id magneticField_lineChart
-id mainView_appVersion_tv
-id mainView_dfu_Ll
-id mainView_dfu_text
-id mainView_libraryVersion_tv
-id mainView_ll1
-id mainView_movesense_Ll
-id mainView_movesense_text
-id mainView_multiConnection_Ll
-id mainView_multiConnection_text
-id mainView_savedData_Ll
-id mainView_savedData_text
 id media_actions
 id menu_device_settings
 id message
@@ -1054,7 +1055,9 @@ id on
 id packed
 id parent
 id parentPanel
+id passwordEditText
 id percent
+id postWorkoutResultsButton
 id progress_circular
 id progress_horizontal
 id radio
@@ -1091,10 +1094,15 @@ id sensorList_deviceInfo_serial_tv
 id sensorList_deviceInfo_sw_tv
 id sensorList_deviceInfo_title_tv
 id sensorList_recyclerView
+id settingsButton
 id shortcut
 id showCustom
 id showHome
 id showTitle
+id signOutButton
+id signUpText
+id signupButton
+id signupTitle
 id spacer
 id spinner
 id split_action_bar
@@ -1105,6 +1113,7 @@ id src_in
 id src_over
 id standard
 id start
+id startExerciseSessionButton
 id status_bar_latest_event_content
 id submenuarrow
 id submit_area
@@ -1148,6 +1157,7 @@ id useLogo
 id value_textView
 id view_tree_lifecycle_owner
 id visible_removing_fragment_view_tag
+id weightEditText
 id wide
 id withText
 id wrap
@@ -1217,6 +1227,7 @@ layout activity_heart_rate_test
 layout activity_imu
 layout activity_led_test
 layout activity_linear_acceleration_test
+layout activity_login
 layout activity_magnetic_field_test
 layout activity_main_view
 layout activity_memory_diagnostic
@@ -1227,6 +1238,7 @@ layout activity_multi_subscribe
 layout activity_saved_data
 layout activity_send_logs_to_google_drive
 layout activity_sensor_list
+layout activity_signup
 layout activity_temperature_test
 layout custom_dialog
 layout fragment_ecg_landscape
@@ -1361,6 +1373,7 @@ string ecg
 string energy_value_to_low_for_update
 string error
 string exit
+string full_name
 string heart_rate
 string heart_rate_name
 string hello_blank_fragment

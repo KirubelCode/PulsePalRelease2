@@ -19,9 +19,9 @@ import java.lang.Override;
 public class MagneticFieldTestActivity_ViewBinding implements Unbinder {
   private MagneticFieldTestActivity target;
 
-  private View view7f07013d;
+  private View view7f080145;
 
-  private View view7f070131;
+  private View view7f080138;
 
   @UiThread
   public MagneticFieldTestActivity_ViewBinding(MagneticFieldTestActivity target) {
@@ -36,7 +36,7 @@ public class MagneticFieldTestActivity_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.switchSubscription, "field 'switchSubscription' and method 'onCheckedChanged'");
     target.switchSubscription = Utils.castView(view, R.id.switchSubscription, "field 'switchSubscription'", SwitchCompat.class);
-    view7f07013d = view;
+    view7f080145 = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -45,7 +45,7 @@ public class MagneticFieldTestActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.spinner, "field 'spinner' and method 'onItemSelected'");
     target.spinner = Utils.castView(view, R.id.spinner, "field 'spinner'", Spinner.class);
-    view7f070131 = view;
+    view7f080138 = view;
     ((AdapterView<?>) view).setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
       @Override
       public void onItemSelected(AdapterView<?> p0, View p1, int p2, long p3) {
@@ -80,9 +80,9 @@ public class MagneticFieldTestActivity_ViewBinding implements Unbinder {
     target.mConnectedDeviceNameTextView = null;
     target.mConnectedDeviceSwVersionTextView = null;
 
-    ((CompoundButton) view7f07013d).setOnCheckedChangeListener(null);
-    view7f07013d = null;
-    ((AdapterView<?>) view7f070131).setOnItemSelectedListener(null);
-    view7f070131 = null;
+    ((CompoundButton) view7f080145).setOnCheckedChangeListener(null);
+    view7f080145 = null;
+    ((AdapterView<?>) view7f080138).setOnItemSelectedListener(null);
+    view7f080138 = null;
   }
 }

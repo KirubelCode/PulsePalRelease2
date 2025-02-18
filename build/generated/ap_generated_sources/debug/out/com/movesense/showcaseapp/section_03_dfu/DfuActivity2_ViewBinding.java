@@ -16,11 +16,11 @@ import java.lang.Override;
 public class DfuActivity2_ViewBinding implements Unbinder {
   private DfuActivity2 target;
 
-  private View view7f070070;
+  private View view7f080074;
 
-  private View view7f070074;
+  private View view7f080078;
 
-  private View view7f070079;
+  private View view7f08007d;
 
   @UiThread
   public DfuActivity2_ViewBinding(DfuActivity2 target) {
@@ -38,7 +38,7 @@ public class DfuActivity2_ViewBinding implements Unbinder {
     target.mDfuSelectedDeviceInfoLayout = Utils.findRequiredViewAsType(source, R.id.dfu_selectedDevice_infoLayout, "field 'mDfuSelectedDeviceInfoLayout'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.dfu_selectedDevice_containerLl, "field 'mDfuSelectedDeviceContainer' and method 'onViewClicked'");
     target.mDfuSelectedDeviceContainer = Utils.castView(view, R.id.dfu_selectedDevice_containerLl, "field 'mDfuSelectedDeviceContainer'", LinearLayout.class);
-    view7f070070 = view;
+    view7f080074 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -51,7 +51,7 @@ public class DfuActivity2_ViewBinding implements Unbinder {
     target.mDfuSelectedFileInfoLayout = Utils.findRequiredViewAsType(source, R.id.dfu_selectedFile_infoLayout, "field 'mDfuSelectedFileInfoLayout'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.dfu_selectedFile_containerLl, "field 'mDfuSelectedFileContainer' and method 'onViewClicked'");
     target.mDfuSelectedFileContainer = Utils.castView(view, R.id.dfu_selectedFile_containerLl, "field 'mDfuSelectedFileContainer'", LinearLayout.class);
-    view7f070074 = view;
+    view7f080078 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -60,7 +60,7 @@ public class DfuActivity2_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.dfu_startUpload_btn, "field 'mDfuStartUploadBtn' and method 'onViewClicked'");
     target.mDfuStartUploadBtn = Utils.castView(view, R.id.dfu_startUpload_btn, "field 'mDfuStartUploadBtn'", TextView.class);
-    view7f070079 = view;
+    view7f08007d = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -96,11 +96,11 @@ public class DfuActivity2_ViewBinding implements Unbinder {
     target.mDfuDfuSwVersionTv = null;
     target.mDfuMovesenseSwVersionTv = null;
 
-    view7f070070.setOnClickListener(null);
-    view7f070070 = null;
-    view7f070074.setOnClickListener(null);
-    view7f070074 = null;
-    view7f070079.setOnClickListener(null);
-    view7f070079 = null;
+    view7f080074.setOnClickListener(null);
+    view7f080074 = null;
+    view7f080078.setOnClickListener(null);
+    view7f080078 = null;
+    view7f08007d.setOnClickListener(null);
+    view7f08007d = null;
   }
 }

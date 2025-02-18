@@ -76,4 +76,11 @@
     <string name="bpm">Beat interval [bpm]:</string>
     <string name="heart_rate">Heart rate:</string>
     <string name="beat_interval">Beat interval:</string>
+    <string name="full_name">Full Name</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
 </resources>
