@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-58:12
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:2:1-19:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\kirut\.gradle\caches\transforms-3\f4ff396adbae0528cd2e81074fdc5faf\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\kirut\.gradle\caches\transforms-3\9709ba5c08bf79f56a2d353986afb790\transformed\jetified-graphview-4.2.1\AndroidManifest.xml:2:1-14:12
@@ -146,8 +146,8 @@ ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:25:5-8
 	android:name
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:25:19-63
 application
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-55:19
-INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-55:19
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-56:19
+INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-56:19
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\kirut\.gradle\caches\transforms-3\9709ba5c08bf79f56a2d353986afb790\transformed\jetified-graphview-4.2.1\AndroidManifest.xml:11:5-12:19
@@ -182,38 +182,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ki
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:29:9-35
 	android:theme
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:33:9-40
+	android:usesCleartextTraffic
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:34:9-44
 	android:name
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:28:9-34
 activity#com.movesense.showcaseapp.section_00_mainView.SignupActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:36:9-43:20
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:38:13-36
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:37:13-63
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:38:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:39:13-42:29
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:13-43:29
 action#android.intent.action.MAIN
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:17-69
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:25-66
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:17-77
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:27-74
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:42:27-74
 activity#com.movesense.showcaseapp.section_00_mainView.LoginActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:46:9-48:39
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:47:9-49:39
 	android:exported
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:48:13-36
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:47:13-62
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:48:13-62
 activity#com.movesense.showcaseapp.section_00_mainView.MainViewActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:51:9-54:52
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:52:9-55:52
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:54:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:55:13-49
 	android:exported
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:53:13-36
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:52:13-65
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:53:13-65
 uses-sdk
 INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml

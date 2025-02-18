@@ -91,7 +91,7 @@
 48-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 49
 50    <application
-50-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-55:19
+50-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-56:19
 51        android:name="com.movesense.showcaseapp.SampleApp"
 51-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:28:9-34
 52        android:allowBackup="true"
@@ -107,93 +107,96 @@
 58        android:supportsRtl="true"
 58-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:32:9-35
 59        android:testOnly="true"
-60        android:theme="@style/AppTheme" >
+60        android:theme="@style/AppTheme"
 60-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:33:9-40
-61
-62        <!-- Signup Activity (Now the launcher activity) -->
-63        <activity
-63-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:36:9-43:20
-64            android:name="com.movesense.showcaseapp.section_00_mainView.SignupActivity"
-64-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:37:13-63
-65            android:exported="true" >
-65-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:38:13-36
-66            <intent-filter>
-66-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:39:13-42:29
-67                <action android:name="android.intent.action.MAIN" />
-67-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:17-69
-67-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:25-66
-68
-69                <category android:name="android.intent.category.LAUNCHER" />
-69-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:17-77
-69-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:27-74
-70            </intent-filter>
-71        </activity>
-72
-73        <!-- Login Activity -->
-74        <activity
-74-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:46:9-48:39
-75            android:name="com.movesense.showcaseapp.section_00_mainView.LoginActivity"
-75-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:47:13-62
-76            android:exported="true" />
-76-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:48:13-36
-77
-78        <!-- Main Dashboard -->
-79        <activity
-79-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:51:9-54:52
-80            android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
-80-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:52:13-65
-81            android:exported="true"
-81-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:53:13-36
-82            android:screenOrientation="portrait" />
-82-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:54:13-49
-83        <activity
-83-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
-84            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-84-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
-85            android:exported="false"
-85-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
-86            android:label=""
-86-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
-87            android:theme="@style/EasyPermissions.Transparent" />
-87-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
-88        <activity
-88-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
-89            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-89-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
-90            android:excludeFromRecents="true"
-90-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
-91            android:exported="false"
-91-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
-92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-92-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
-93        <!--
-94            Service handling Google Sign-In user revocation. For apps that do not integrate with
-95            Google Sign-In, this service will never be started.
-96        -->
-97        <service
-97-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
-98            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-98-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
-99            android:exported="true"
-99-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
-100            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-100-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-101
-102        <activity
-102-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-106
-107        <meta-data
-107-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-108            android:name="com.google.android.gms.version"
-108-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-109            android:value="@integer/google_play_services_version" />
-109-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-110    </application>
-111
-112</manifest>
+61        android:usesCleartextTraffic="true" > <!-- Added here -->
+61-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:34:9-44
+62
+63
+64        <!-- Signup Activity (Now the launcher activity) -->
+65        <activity
+65-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:37:9-44:20
+66            android:name="com.movesense.showcaseapp.section_00_mainView.SignupActivity"
+66-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:38:13-63
+67            android:exported="true" >
+67-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:39:13-36
+68            <intent-filter>
+68-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:13-43:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:17-69
+69-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:42:17-77
+71-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:42:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <!-- Login Activity -->
+76        <activity
+76-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:47:9-49:39
+77            android:name="com.movesense.showcaseapp.section_00_mainView.LoginActivity"
+77-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:48:13-62
+78            android:exported="true" />
+78-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:49:13-36
+79
+80        <!-- Main Dashboard -->
+81        <activity
+81-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:52:9-55:52
+82            android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
+82-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:53:13-65
+83            android:exported="true"
+83-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:54:13-36
+84            android:screenOrientation="portrait" />
+84-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:55:13-49
+85        <activity
+85-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+86            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+86-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+87            android:exported="false"
+87-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+88            android:label=""
+88-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+89            android:theme="@style/EasyPermissions.Transparent" />
+89-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+90        <activity
+90-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+91            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+91-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+92            android:excludeFromRecents="true"
+92-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+95        <!--
+96            Service handling Google Sign-In user revocation. For apps that do not integrate with
+97            Google Sign-In, this service will never be started.
+98        -->
+99        <service
+99-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+100            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+100-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+101            android:exported="true"
+101-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+102            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+102-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+103
+104        <activity
+104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+108
+109        <meta-data
+109-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+110            android:name="com.google.android.gms.version"
+110-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+111            android:value="@integer/google_play_services_version" />
+111-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+112    </application>
+113
+114</manifest>

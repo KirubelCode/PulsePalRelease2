@@ -2,6 +2,7 @@ package com.movesense.showcaseapp.section_00_mainView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -23,7 +24,8 @@ public class SignupActivity extends AppCompatActivity {
     private Button signupButton;
     private TextView alreadyHaveAccount;
 
-    private static final String BASE_URL = "https://your-server.com/";
+    private static final String BASE_URL = "http://192.168.0.178/";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,18 +46,41 @@ public class SignupActivity extends AppCompatActivity {
             String fullName = fullNameEditText.getText().toString().trim();
             String email = emailEditText.getText().toString().trim();
             String password = passwordEditText.getText().toString().trim();
-            String age = ageEditText.getText().toString().trim();
+            String ageStr = ageEditText.getText().toString().trim();
+            String heightStr = heightEditText.getText().toString().trim();
+            String weightStr = weightEditText.getText().toString().trim();
             String gender = genderSpinner.getSelectedItem().toString();
-            String height = heightEditText.getText().toString().trim();
-            String weight = weightEditText.getText().toString().trim();
 
-            if (fullName.isEmpty() || email.isEmpty() || password.isEmpty() || age.isEmpty() || height.isEmpty() || weight.isEmpty()) {
+            // Check if any field is empty
+            if (fullName.isEmpty() || email.isEmpty() || password.isEmpty() ||
+                    ageStr.isEmpty() || heightStr.isEmpty() || weightStr.isEmpty()) {
                 Toast.makeText(SignupActivity.this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
                 return;
             }
 
+            // Convert values safely
+            int age;
+            float height, weight;
+
+            try {
+                age = Integer.parseInt(ageStr);
+                height = Float.parseFloat(heightStr);
+                weight = Float.parseFloat(weightStr);
+            } catch (NumberFormatException e) {
+                Toast.makeText(SignupActivity.this, "Please enter valid numbers for Age, Height, and Weight", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Ensure values are reasonable
+            if (age <= 0 || height <= 0 || weight <= 0) {
+                Toast.makeText(SignupActivity.this, "Please enter valid Age, Height, and Weight values", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Proceed with registration
             registerUser(new User(fullName, email, password, age, gender, height, weight));
         });
+
 
         alreadyHaveAccount.setOnClickListener(view -> {
             startActivity(new Intent(SignupActivity.this, LoginActivity.class));
@@ -73,21 +98,30 @@ public class SignupActivity extends AppCompatActivity {
         Call<ResponseModel> call = apiService.signup(user);
 
         call.enqueue(new Callback<ResponseModel>() {
+
             @Override
             public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
-                if (response.body() != null && response.body().isSuccess()) {
-                    Toast.makeText(SignupActivity.this, "Account Created Successfully", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(SignupActivity.this, MainViewActivity.class));
-                    finish();
+                if (response.isSuccessful() && response.body() != null) {
+                    Log.d("SignupResponse", "Success: " + response.body().getMessage());
+                    Toast.makeText(SignupActivity.this, response.body().getMessage(), Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(SignupActivity.this, "Signup Failed: " + response.body().getMessage(), Toast.LENGTH_SHORT).show();
+                    try {
+                        String errorResponse = response.errorBody().string(); // Get actual error message
+                        Log.e("SignupResponse", "Error: " + errorResponse);
+                        Toast.makeText(SignupActivity.this, "Signup failed: " + errorResponse, Toast.LENGTH_SHORT).show();
+                    } catch (Exception e) {
+                        Log.e("SignupResponse", "Error reading response body", e);
+                    }
                 }
             }
 
+
             @Override
             public void onFailure(Call<ResponseModel> call, Throwable t) {
-                Toast.makeText(SignupActivity.this, "Network Error", Toast.LENGTH_SHORT).show();
+                Log.e("SignupResponse", "Network error: " + t.getMessage());
+                Toast.makeText(SignupActivity.this, "Network error: " + t.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }
+
 }
