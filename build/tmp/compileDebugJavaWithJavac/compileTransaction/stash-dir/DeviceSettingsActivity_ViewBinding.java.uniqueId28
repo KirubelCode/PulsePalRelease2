@@ -16,15 +16,15 @@ import java.lang.Override;
 public class DeviceSettingsActivity_ViewBinding implements Unbinder {
   private DeviceSettingsActivity target;
 
-  private View view7f08006f;
-
-  private View view7f080068;
-
-  private View view7f08006a;
-
-  private View view7f08006d;
+  private View view7f08006e;
 
   private View view7f080067;
+
+  private View view7f080069;
+
+  private View view7f08006c;
+
+  private View view7f080066;
 
   @UiThread
   public DeviceSettingsActivity_ViewBinding(DeviceSettingsActivity target) {
@@ -38,7 +38,7 @@ public class DeviceSettingsActivity_ViewBinding implements Unbinder {
     View view;
     target.mDeviceSettingsUartStatusTv = Utils.findRequiredViewAsType(source, R.id.device_settings_uart_status_tv, "field 'mDeviceSettingsUartStatusTv'", TextView.class);
     view = Utils.findRequiredView(source, R.id.device_settings_uart_switch, "method 'onUartCheckedChange'");
-    view7f08006f = view;
+    view7f08006e = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -46,7 +46,7 @@ public class DeviceSettingsActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.device_settings_powerOffAfterReset_switch, "method 'onPowerOffCheckedChange'");
-    view7f080068 = view;
+    view7f080067 = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -54,7 +54,7 @@ public class DeviceSettingsActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.device_settings_uart_get_btn, "method 'onViewClicked'");
-    view7f08006a = view;
+    view7f080069 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -62,7 +62,7 @@ public class DeviceSettingsActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.device_settings_uart_set_btn, "method 'onViewClicked'");
-    view7f08006d = view;
+    view7f08006c = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -70,7 +70,7 @@ public class DeviceSettingsActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.device_settings_powerOffAfterReset_set_btn, "method 'onViewClicked'");
-    view7f080067 = view;
+    view7f080066 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -88,15 +88,15 @@ public class DeviceSettingsActivity_ViewBinding implements Unbinder {
 
     target.mDeviceSettingsUartStatusTv = null;
 
-    ((CompoundButton) view7f08006f).setOnCheckedChangeListener(null);
-    view7f08006f = null;
-    ((CompoundButton) view7f080068).setOnCheckedChangeListener(null);
-    view7f080068 = null;
-    view7f08006a.setOnClickListener(null);
-    view7f08006a = null;
-    view7f08006d.setOnClickListener(null);
-    view7f08006d = null;
-    view7f080067.setOnClickListener(null);
+    ((CompoundButton) view7f08006e).setOnCheckedChangeListener(null);
+    view7f08006e = null;
+    ((CompoundButton) view7f080067).setOnCheckedChangeListener(null);
     view7f080067 = null;
+    view7f080069.setOnClickListener(null);
+    view7f080069 = null;
+    view7f08006c.setOnClickListener(null);
+    view7f08006c = null;
+    view7f080066.setOnClickListener(null);
+    view7f080066 = null;
   }
 }

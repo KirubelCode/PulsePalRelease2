@@ -19,13 +19,13 @@ import java.lang.Override;
 public class ImuActivity_ViewBinding implements Unbinder {
   private ImuActivity target;
 
-  private View view7f0800ad;
+  private View view7f0800af;
 
-  private View view7f0800ae;
+  private View view7f0800b0;
 
-  private View view7f080149;
+  private View view7f08014d;
 
-  private View view7f08013c;
+  private View view7f080140;
 
   @UiThread
   public ImuActivity_ViewBinding(ImuActivity target) {
@@ -39,7 +39,7 @@ public class ImuActivity_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.imu6_radioBtn, "field 'mImu6RadioBtn' and method 'onImuRadioGroupChange'");
     target.mImu6RadioBtn = Utils.castView(view, R.id.imu6_radioBtn, "field 'mImu6RadioBtn'", RadioButton.class);
-    view7f0800ad = view;
+    view7f0800af = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -48,7 +48,7 @@ public class ImuActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.imu9_radioBtn, "field 'mImu9RadioBtn' and method 'onImuRadioGroupChange'");
     target.mImu9RadioBtn = Utils.castView(view, R.id.imu9_radioBtn, "field 'mImu9RadioBtn'", RadioButton.class);
-    view7f0800ae = view;
+    view7f0800b0 = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -59,7 +59,7 @@ public class ImuActivity_ViewBinding implements Unbinder {
     target.mConnectedDeviceSwVersionTextView = Utils.findRequiredViewAsType(source, R.id.connected_device_swVersion_textView, "field 'mConnectedDeviceSwVersionTextView'", TextView.class);
     view = Utils.findRequiredView(source, R.id.switchSubscription, "field 'mSwitchSubscription' and method 'onSwitchCheckedChange'");
     target.mSwitchSubscription = Utils.castView(view, R.id.switchSubscription, "field 'mSwitchSubscription'", SwitchCompat.class);
-    view7f080149 = view;
+    view7f08014d = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -68,7 +68,7 @@ public class ImuActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.spinner, "field 'spinner' and method 'onItemSelected'");
     target.spinner = Utils.castView(view, R.id.spinner, "field 'spinner'", Spinner.class);
-    view7f08013c = view;
+    view7f080140 = view;
     ((AdapterView<?>) view).setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
       @Override
       public void onItemSelected(AdapterView<?> p0, View p1, int p2, long p3) {
@@ -113,13 +113,13 @@ public class ImuActivity_ViewBinding implements Unbinder {
     target.mMagnYAxisTextView = null;
     target.mMagnZAxisTextView = null;
 
-    ((CompoundButton) view7f0800ad).setOnCheckedChangeListener(null);
-    view7f0800ad = null;
-    ((CompoundButton) view7f0800ae).setOnCheckedChangeListener(null);
-    view7f0800ae = null;
-    ((CompoundButton) view7f080149).setOnCheckedChangeListener(null);
-    view7f080149 = null;
-    ((AdapterView<?>) view7f08013c).setOnItemSelectedListener(null);
-    view7f08013c = null;
+    ((CompoundButton) view7f0800af).setOnCheckedChangeListener(null);
+    view7f0800af = null;
+    ((CompoundButton) view7f0800b0).setOnCheckedChangeListener(null);
+    view7f0800b0 = null;
+    ((CompoundButton) view7f08014d).setOnCheckedChangeListener(null);
+    view7f08014d = null;
+    ((AdapterView<?>) view7f080140).setOnItemSelectedListener(null);
+    view7f080140 = null;
   }
 }

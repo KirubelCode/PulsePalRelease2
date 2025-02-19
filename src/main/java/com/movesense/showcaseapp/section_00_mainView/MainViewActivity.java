@@ -16,23 +16,22 @@ import com.movesense.mds.internal.connectivity.MovesenseConnectedDevices;
 import com.movesense.showcaseapp.R;
 import com.movesense.showcaseapp.bluetooth.MdsRx;
 import com.movesense.showcaseapp.model.HeartRate;
+import com.movesense.showcaseapp.model.LinearAcceleration;
 import com.movesense.showcaseapp.model.MdsConnectedDevice;
 import com.movesense.showcaseapp.section_01_movesense.MovesenseActivity;
-
 import java.util.Locale;
-
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.functions.Consumer;
 
 public class MainViewActivity extends AppCompatActivity {
 
     private Button startExerciseSessionButton, postWorkoutResultsButton, settingsButton, signOutButton, connectSensorButton;
-    private TextView libraryVersionTv, sensorStatusTv, heartRateDisplay;
+    private TextView sensorStatusTv, heartRateDisplay, xAxisDisplay, yAxisDisplay, zAxisDisplay;
     private CompositeDisposable subscriptions;
-    private MdsSubscription heartRateSubscription;
+    private MdsSubscription heartRateSubscription, linearAccelerationSubscription;
 
-    private static final String URI_MDSVERSION = "suunto://MDS/Whiteboard/MdsVersion";
     private static final String HEART_RATE_PATH = "Meas/Hr";
+    private static final String LINEAR_ACCELERATION_PATH = "Meas/Acc/52"; // Adjust rate as needed
     public static final String URI_EVENTLISTENER = "suunto://MDS/EventListener";
     private static final String TAG = "MainViewActivity";
 
@@ -49,6 +48,9 @@ public class MainViewActivity extends AppCompatActivity {
         connectSensorButton = findViewById(R.id.connectSensorButton);
         sensorStatusTv = findViewById(R.id.sensorStatusTv);
         heartRateDisplay = findViewById(R.id.heartRateDisplay);
+        xAxisDisplay = findViewById(R.id.xAxisDisplay);
+        yAxisDisplay = findViewById(R.id.yAxisDisplay);
+        zAxisDisplay = findViewById(R.id.zAxisDisplay);
 
         // Initialize Rx Subscriptions
         subscriptions = new CompositeDisposable();
@@ -71,7 +73,7 @@ public class MainViewActivity extends AppCompatActivity {
         // Connect Movesense Sensor Button
         connectSensorButton.setOnClickListener(view -> connectMovesenseSensor());
 
-        // Auto-subscribe to heart rate if sensor is connected
+        // Auto-subscribe if sensor is connected
         checkSensorConnection();
     }
 
@@ -80,16 +82,16 @@ public class MainViewActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
-
     private void checkSensorConnection() {
         if (MovesenseConnectedDevices.getConnectedDevices().size() > 0) {
             String serial = MovesenseConnectedDevices.getConnectedDevice(0).getSerial();
             sensorStatusTv.setText("Connected to: " + serial);
             connectSensorButton.setVisibility(View.GONE);
 
-            // Auto-subscribe to heart rate when connected
+            // Subscribe to Heart Rate & Linear Acceleration
             subscribeToHeartRate(serial);
+            subscribeToLinearAcceleration(serial);
+
         } else {
             sensorStatusTv.setText("No sensor connected.");
             connectSensorButton.setVisibility(View.VISIBLE);
@@ -104,12 +106,14 @@ public class MainViewActivity extends AppCompatActivity {
                             sensorStatusTv.setText("Connected to: " + mdsConnectedDevice.getSerial());
                             connectSensorButton.setVisibility(View.GONE);
 
-                            // Auto-subscribe to heart rate
+                            // Re-subscribe when reconnected
                             subscribeToHeartRate(mdsConnectedDevice.getSerial());
+                            subscribeToLinearAcceleration(mdsConnectedDevice.getSerial());
                         } else {
                             sensorStatusTv.setText("No sensor connected.");
                             connectSensorButton.setVisibility(View.VISIBLE);
                             unsubscribeHeartRate();
+                            unsubscribeLinearAcceleration();
                         }
                     }
                 }, throwable -> Log.e(TAG, "Error observing sensor connection", throwable)));
@@ -125,6 +129,7 @@ public class MainViewActivity extends AppCompatActivity {
                 new MdsNotificationListener() {
                     @Override
                     public void onNotification(String data) {
+                        Log.d(TAG, "Heart Rate Data Received: " + data);
                         HeartRate heartRate = new Gson().fromJson(data, HeartRate.class);
                         if (heartRate != null) {
                             runOnUiThread(() -> heartRateDisplay.setText(
@@ -139,10 +144,47 @@ public class MainViewActivity extends AppCompatActivity {
                 });
     }
 
+    private void subscribeToLinearAcceleration(String serial) {
+        if (linearAccelerationSubscription != null) {
+            linearAccelerationSubscription.unsubscribe();
+        }
+
+        linearAccelerationSubscription = Mds.builder().build(this).subscribe(URI_EVENTLISTENER,
+                String.format(Locale.US, "{\"Uri\": \"%s/%s\"}", serial, LINEAR_ACCELERATION_PATH),
+                new MdsNotificationListener() {
+                    @Override
+                    public void onNotification(String data) {
+                        Log.d(TAG, "Linear Acceleration Data Received: " + data);
+                        LinearAcceleration linearAccelerationData = new Gson().fromJson(data, LinearAcceleration.class);
+                        if (linearAccelerationData != null && linearAccelerationData.body.array.length > 0) {
+                            LinearAcceleration.Array arrayData = linearAccelerationData.body.array[0];
+
+                            runOnUiThread(() -> {
+                                xAxisDisplay.setText(String.format(Locale.US, "X: %.6f", arrayData.x));
+                                yAxisDisplay.setText(String.format(Locale.US, "Y: %.6f", arrayData.y));
+                                zAxisDisplay.setText(String.format(Locale.US, "Z: %.6f", arrayData.z));
+                            });
+                        }
+                    }
+
+                    @Override
+                    public void onError(MdsException error) {
+                        Log.e(TAG, "Linear Acceleration subscription error", error);
+                    }
+                });
+    }
+
     private void unsubscribeHeartRate() {
         if (heartRateSubscription != null) {
             heartRateSubscription.unsubscribe();
             heartRateSubscription = null;
+        }
+    }
+
+    private void unsubscribeLinearAcceleration() {
+        if (linearAccelerationSubscription != null) {
+            linearAccelerationSubscription.unsubscribe();
+            linearAccelerationSubscription = null;
         }
     }
 
@@ -156,11 +198,7 @@ public class MainViewActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         unsubscribeHeartRate();
+        unsubscribeLinearAcceleration();
         subscriptions.clear();
-    }
-
-    // Helper class for parsing version response
-    private static class VersionResponse {
-        String Content;
     }
 }

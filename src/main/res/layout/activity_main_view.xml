@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -20,31 +21,63 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="40dp" />
 
-    <!-- Heart Icon + Heart Rate Display -->
+    <!-- Heart Rate Section -->
     <ImageView
         android:id="@+id/heartRateIcon"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:src="@drawable/ic_heart"
+        android:layout_marginTop="24dp"
         android:contentDescription="Heart Icon"
+        android:src="@drawable/ic_heart"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/dashboardTitle"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toStartOf="@id/heartRateDisplay"
-        android:layout_marginEnd="8dp"/>
-
+        app:layout_constraintTop_toBottomOf="@id/dashboardTitle" />
 
     <TextView
         android:id="@+id/heartRateDisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Heart Rate: -- bpm"
+        android:textColor="@android:color/black"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
+        android:layout_marginStart="8dp"
         app:layout_constraintStart_toEndOf="@id/heartRateIcon"
         app:layout_constraintTop_toTopOf="@id/heartRateIcon"
-        app:layout_constraintBottom_toBottomOf="@id/heartRateIcon"/>
+        app:layout_constraintBottom_toBottomOf="@id/heartRateIcon" />
+
+    <!-- Linear Acceleration Data -->
+    <TextView
+        android:id="@+id/xAxisDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X: --"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heartRateIcon" />
+
+    <TextView
+        android:id="@+id/yAxisDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y: --"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xAxisDisplay" />
+
+    <TextView
+        android:id="@+id/zAxisDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z: --"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/yAxisDisplay" />
 
     <!-- Start Exercise Session Button -->
     <Button
@@ -56,7 +89,7 @@
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:layout_marginTop="40dp"
-        app:layout_constraintTop_toBottomOf="@id/heartRateIcon"
+        app:layout_constraintTop_toBottomOf="@id/zAxisDisplay"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -96,10 +129,10 @@
         android:text="No sensor connected."
         android:textSize="16sp"
         android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@id/connectSensorButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Settings Button -->
     <Button
@@ -110,10 +143,10 @@
         android:backgroundTint="@android:color/darker_gray"
         android:textColor="@android:color/white"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginStart="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <!-- Sign Out Button -->
     <Button
@@ -124,9 +157,9 @@
         android:backgroundTint="@android:color/holo_red_light"
         android:textColor="@android:color/white"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

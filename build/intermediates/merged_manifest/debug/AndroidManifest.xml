@@ -85,6 +85,7 @@
             android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
+        <activity android:name="com.movesense.showcaseapp.section_00_mainView.ExerciseSessionActivity" />
 
         <!-- Movesense Sensor Connection -->
         <activity

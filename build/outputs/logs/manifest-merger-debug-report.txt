@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-160:12
-INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-160:12
-INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-160:12
-INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-160:12
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-162:12
+INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-162:12
+INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-162:12
+INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:2:1-162:12
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:2:1-19:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\kirut\.gradle\caches\transforms-3\f4ff396adbae0528cd2e81074fdc5faf\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\kirut\.gradle\caches\transforms-3\9709ba5c08bf79f56a2d353986afb790\transformed\jetified-graphview-4.2.1\AndroidManifest.xml:2:1-14:12
@@ -147,8 +147,8 @@ ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-8
 	android:name
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:19-63
 application
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:29:5-158:19
-INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:29:5-158:19
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:29:5-160:19
+INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:29:5-160:19
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\kirut\.gradle\caches\transforms-3\9709ba5c08bf79f56a2d353986afb790\transformed\jetified-graphview-4.2.1\AndroidManifest.xml:11:5-12:19
@@ -217,176 +217,180 @@ ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:54:9-5
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:56:13-36
 	android:name
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:55:13-65
+activity#com.movesense.showcaseapp.section_00_mainView.ExerciseSessionActivity
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:59:9-81
+	android:name
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:59:19-78
 activity#com.movesense.showcaseapp.section_01_movesense.MovesenseActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:60:9-62:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:62:9-64:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:62:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:64:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:61:13-67
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:63:13-67
 activity#com.movesense.showcaseapp.section_01_movesense.tests.LedTestActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:65:9-116
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:9-116
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:65:78-114
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:78-114
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:65:19-77
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:19-77
 activity#com.movesense.showcaseapp.section_01_movesense.tests.LinearAccelerationTestActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:66:9-131
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:9-131
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:66:93-129
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:93-129
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:66:19-92
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:19-92
 activity#com.movesense.showcaseapp.section_01_movesense.tests.HeartRateTestActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:9-122
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:9-122
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:84-120
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:84-120
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:19-83
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:19-83
 activity#com.movesense.showcaseapp.section_01_movesense.tests.TemperatureTestActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:9-124
-	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:86-122
-	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:19-85
-activity#com.movesense.showcaseapp.section_01_movesense.tests.MagneticFieldTestActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:9-126
-	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:88-124
-	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:19-87
-activity#com.movesense.showcaseapp.section_01_movesense.tests.AngularVelocityActivity
 ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:70:9-124
 	android:screenOrientation
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:70:86-122
 	android:name
 		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:70:19-85
+activity#com.movesense.showcaseapp.section_01_movesense.tests.MagneticFieldTestActivity
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:9-126
+	android:screenOrientation
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:88-124
+	android:name
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:19-87
+activity#com.movesense.showcaseapp.section_01_movesense.tests.AngularVelocityActivity
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:72:9-124
+	android:screenOrientation
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:72:86-122
+	android:name
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:72:19-85
 activity#com.movesense.showcaseapp.section_01_movesense.tests.MultiSubscribeActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:9-123
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:9-123
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:85-121
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:85-121
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:19-84
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:19-84
 activity#com.movesense.showcaseapp.section_02_multi_connection.connection.MultiConnectionActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:74:9-76:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:76:9-78:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:76:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:78:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:75:13-91
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:77:13-91
 activity#com.movesense.showcaseapp.google_drive.SendLogsToGoogleDriveActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:79:9-81:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:81:9-83:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:81:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:83:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:80:13-71
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:82:13-71
 activity#com.movesense.showcaseapp.section_04_saved_data.SavedDataActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:82:9-84:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:84:9-86:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:84:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:86:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:83:13-68
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:85:13-68
 activity#com.movesense.showcaseapp.section_03_dfu.DfuActivity2
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:87:9-89:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:89:9-91:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:89:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:91:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:88:13-56
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:90:13-56
 service#com.movesense.showcaseapp.section_03_dfu.DfuService
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:90:9-94:62
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:92:9-96:62
 	android:enabled
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:92:13-35
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:94:13-35
 	android:exported
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:93:13-36
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:95:13-36
 	android:foregroundServiceType
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:94:13-60
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:96:13-60
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:91:13-54
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:93:13-54
 activity#com.movesense.showcaseapp.section_06_about.AboutActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:97:9-99:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:99:9-101:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:99:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:101:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:98:13-59
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:100:13-59
 activity#com.movesense.showcaseapp.section_01_movesense.sensors.sensors_list.SensorListActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:102:9-104:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:104:9-106:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:104:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:106:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:103:13-89
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:105:13-89
 activity#com.movesense.showcaseapp.section_02_multi_connection.sensor_usage.MultiSensorUsageActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:107:9-109:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:109:9-111:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:109:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:111:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:108:13-94
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:110:13-94
 activity#com.movesense.showcaseapp.section_01_movesense.tests.EcgActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:112:9-115:76
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:114:9-117:76
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:114:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:116:13-49
 	android:configChanges
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:115:13-74
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:117:13-74
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:113:13-67
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:115:13-67
 activity#com.movesense.showcaseapp.section_01_movesense.tests.BatteryActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:116:9-118:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:118:9-120:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:118:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:120:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:117:13-71
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:119:13-71
 activity#com.movesense.showcaseapp.section_01_movesense.tests.AppInfoActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:121:9-123:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:123:9-125:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:123:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:125:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:122:13-71
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:124:13-71
 activity#com.movesense.showcaseapp.section_01_movesense.tests.ImuActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:124:9-126:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:126:9-128:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:126:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:128:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:125:13-67
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:127:13-67
 activity#com.movesense.showcaseapp.section_01_movesense.tests.MemoryDiagnosticActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:127:9-129:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:129:9-131:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:129:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:131:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:128:13-80
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:130:13-80
 activity#com.movesense.showcaseapp.section_01_movesense.device_settings.DeviceSettingsActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:132:9-134:51
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:134:9-136:51
 	android:screenOrientation
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:134:13-49
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:136:13-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:133:13-88
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:135:13-88
 receiver#com.movesense.showcaseapp.bluetooth.BluetoothStatusReceiver
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:137:9-144:20
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:139:9-146:20
 	android:enabled
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:139:13-35
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:141:13-35
 	android:exported
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:140:13-37
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:142:13-37
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:138:13-62
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:140:13-62
 intent-filter#action:name:android.bluetooth.adapter.action.STATE_CHANGED
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:141:13-143:29
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:143:13-145:29
 action#android.bluetooth.adapter.action.STATE_CHANGED
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:142:17-88
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:144:17-88
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:142:25-86
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:144:25-86
 receiver#com.movesense.showcaseapp.adb.AdbBridge
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:146:9-153:20
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:148:9-155:20
 	android:enabled
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:148:13-35
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:150:13-35
 	android:exported
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:149:13-36
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:151:13-36
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:147:13-42
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:149:13-42
 intent-filter#action:name:android.intent.action.MOVESENSE
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:150:13-152:29
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:152:13-154:29
 action#android.intent.action.MOVESENSE
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:151:17-73
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:153:17-73
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:151:25-71
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:153:25-71
 activity#com.movesense.showcaseapp.BaseActivity
-ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:156:9-49
+ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:158:9-49
 	android:name
-		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:156:19-47
+		ADDED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:158:19-47
 uses-sdk
 INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml

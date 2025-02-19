@@ -16,7 +16,7 @@ import java.lang.Override;
 public class BatteryActivity_ViewBinding implements Unbinder {
   private BatteryActivity target;
 
-  private View view7f08015c;
+  private View view7f080160;
 
   @UiThread
   public BatteryActivity_ViewBinding(BatteryActivity target) {
@@ -32,7 +32,7 @@ public class BatteryActivity_ViewBinding implements Unbinder {
     target.mConnectedDeviceSwVersionTextView = Utils.findRequiredViewAsType(source, R.id.connected_device_swVersion_textView, "field 'mConnectedDeviceSwVersionTextView'", TextView.class);
     view = Utils.findRequiredView(source, R.id.temperature_get_button, "field 'mTemperatureGetButton' and method 'onViewClicked'");
     target.mTemperatureGetButton = Utils.castView(view, R.id.temperature_get_button, "field 'mTemperatureGetButton'", Button.class);
-    view7f08015c = view;
+    view7f080160 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +54,7 @@ public class BatteryActivity_ViewBinding implements Unbinder {
     target.mTemperatureGetButton = null;
     target.mValueTextView = null;
 
-    view7f08015c.setOnClickListener(null);
-    view7f08015c = null;
+    view7f080160.setOnClickListener(null);
+    view7f080160 = null;
   }
 }

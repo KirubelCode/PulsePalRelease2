@@ -56,6 +56,8 @@
             android:exported="true"
             android:screenOrientation="portrait" />
 
+        <activity android:name=".section_00_mainView.ExerciseSessionActivity" />
+
         <!-- Movesense Sensor Connection -->
         <activity
             android:name=".section_01_movesense.MovesenseActivity"

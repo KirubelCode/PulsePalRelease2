@@ -1185,14 +1185,17 @@ id wide
 id withText
 id wrap
 id wrap_content
+id xAxisDisplay
 id x_axis_angularVelocity_textView
 id x_axis_linearAcc_textView
 id x_axis_magneticField_textView
 id x_axis_textView
+id yAxisDisplay
 id y_axis_angularVelocity_textView
 id y_axis_linearAcc_textView
 id y_axis_magneticField_textView
 id y_axis_textView
+id zAxisDisplay
 id z_axis_angularVelocity_textView
 id z_axis_linearAcc_textView
 id z_axis_magneticField_textView
@@ -1246,6 +1249,7 @@ layout activity_battery
 layout activity_device_settings
 layout activity_dfu2
 layout activity_ecg
+layout activity_exercise_session
 layout activity_heart_rate_test
 layout activity_imu
 layout activity_led_test

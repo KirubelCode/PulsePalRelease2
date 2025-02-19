@@ -16,6 +16,10 @@
         "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\movesense.jpg"
     },
     {
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_exercise_session.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_exercise_session.xml"
+    },
+    {
         "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_red_stroke.xml.flat",
         "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\red_stroke.xml"
     },

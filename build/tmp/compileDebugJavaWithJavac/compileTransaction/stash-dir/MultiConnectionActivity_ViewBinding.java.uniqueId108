@@ -20,7 +20,7 @@ public class MultiConnectionActivity_ViewBinding implements Unbinder {
 
   private View view7f08003d;
 
-  private View view7f0800d4;
+  private View view7f0800d7;
 
   @UiThread
   public MultiConnectionActivity_ViewBinding(MultiConnectionActivity target) {
@@ -60,7 +60,7 @@ public class MultiConnectionActivity_ViewBinding implements Unbinder {
     target.mMultiConnectionSelectedDeviceInfoLl2 = Utils.findRequiredViewAsType(source, R.id.multiConnection_selectedDeviceInfo_Ll_2, "field 'mMultiConnectionSelectedDeviceInfoLl2'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.multiConnection_connect_Tv, "field 'mMultiConnectionConnectTv' and method 'onViewClicked'");
     target.mMultiConnectionConnectTv = Utils.castView(view, R.id.multiConnection_connect_Tv, "field 'mMultiConnectionConnectTv'", TextView.class);
-    view7f0800d4 = view;
+    view7f0800d7 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -94,7 +94,7 @@ public class MultiConnectionActivity_ViewBinding implements Unbinder {
     view7f08003c = null;
     view7f08003d.setOnClickListener(null);
     view7f08003d = null;
-    view7f0800d4.setOnClickListener(null);
-    view7f0800d4 = null;
+    view7f0800d7.setOnClickListener(null);
+    view7f0800d7 = null;
   }
 }
