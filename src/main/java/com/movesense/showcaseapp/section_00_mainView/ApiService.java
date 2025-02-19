@@ -8,4 +8,7 @@ public interface ApiService {
     @Headers("Content-Type: application/json") // Ensure JSON format
     @POST("pulsepal/signup.php")
     Call<ResponseModel> signup(@Body User user);
+
+    @POST("pulsepal/login.php")  // This will call login.php
+    Call<ResponseModel> login(@Body LoginRequest loginRequest);
 }
