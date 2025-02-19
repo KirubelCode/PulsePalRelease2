@@ -33,6 +33,7 @@ import com.movesense.showcaseapp.model.MdsConnectedDevice;
 import com.movesense.showcaseapp.model.MdsDeviceInfoNewSw;
 import com.movesense.showcaseapp.model.MdsDeviceInfoOldSw;
 import com.movesense.showcaseapp.model.RxBleDeviceWrapper;
+import com.movesense.showcaseapp.section_00_mainView.MainViewActivity;
 import com.movesense.showcaseapp.section_01_movesense.sensors.sensors_list.SensorListActivity;
 import com.movesense.showcaseapp.utils.ThrowableToastingAction;
 import com.polidea.rxandroidble2.RxBleDevice;
@@ -274,6 +275,12 @@ public class MovesenseActivity extends AppCompatActivity implements MovesenseCon
 
         ConnectingDialog.INSTANCE.showDialog(this, rxBleDevice.getMacAddress());
 
+        // Redirect to MainViewActivity after successful connection
+        startActivity(new Intent(MovesenseActivity.this, MainViewActivity.class)
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK));
+
+
+
         // Monitor for connected devices
         connectedDevicesSubscriptions.add(MdsRx.Instance.connectedDeviceObservable()
                 .subscribe(new Consumer<MdsConnectedDevice>() {
@@ -311,7 +318,9 @@ public class MovesenseActivity extends AppCompatActivity implements MovesenseCon
                             connectedDevicesSubscriptions.dispose();
 
                             // We have a new SdsDevice
-                            startActivity(new Intent(MovesenseActivity.this, SensorListActivity.class));
+                            startActivity(new Intent(MovesenseActivity.this, MainViewActivity.class)
+                                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK));
+                            finish();
                         } else {
                             Log.e(TAG, "DISCONNECT");
                         }

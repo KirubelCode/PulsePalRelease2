@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.movesense.showcaseapp-mergeDebugResources-19:/values-v23/values-v23.xml",
+            "outputFile": "com.movesense.showcaseapp-mergeDebugResources-20:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kirut\\.gradle\\caches\\transforms-3\\f4ff396adbae0528cd2e81074fdc5faf\\transformed\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
@@ -20,6 +20,25 @@
                         "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
                         "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
                         "endOffsets": "185,320,395,482,1220,1970,2089,2216,2321,2545,2660,2767,2880,3110"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kirut\\.gradle\\caches\\transforms-3\\e7591d440356790a4bc7af4c3fdaea80\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "3115",
+                        "endLines": "50",
+                        "endColumns": "12",
+                        "endOffsets": "3260"
                     }
                 }
             ]

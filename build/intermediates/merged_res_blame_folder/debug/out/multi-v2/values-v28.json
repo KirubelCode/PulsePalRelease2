@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.movesense.showcaseapp-mergeDebugResources-19:/values-v28/values-v28.xml",
+            "outputFile": "com.movesense.showcaseapp-mergeDebugResources-20:/values-v28/values-v28.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kirut\\.gradle\\caches\\transforms-3\\f4ff396adbae0528cd2e81074fdc5faf\\transformed\\appcompat-1.1.0\\res\\values-v28\\values-v28.xml",

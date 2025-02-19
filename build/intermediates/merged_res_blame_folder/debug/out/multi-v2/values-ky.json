@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.movesense.showcaseapp-mergeDebugResources-19:/values-ky/values-ky.xml",
+            "outputFile": "com.movesense.showcaseapp-mergeDebugResources-20:/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kirut\\.gradle\\caches\\transforms-3\\408477201caec56acb30a509eba0f621\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-ky\\values.xml",
