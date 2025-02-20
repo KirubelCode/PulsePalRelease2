@@ -31,7 +31,7 @@ public class MainViewActivity extends AppCompatActivity {
     private MdsSubscription heartRateSubscription, linearAccelerationSubscription;
 
     private static final String HEART_RATE_PATH = "Meas/Hr";
-    private static final String LINEAR_ACCELERATION_PATH = "Meas/Acc/52"; // Adjust rate as needed
+    private static final String LINEAR_ACCELERATION_PATH = "Meas/Acc/13"; // Lowered the frequency for better efficiency
     public static final String URI_EVENTLISTENER = "suunto://MDS/EventListener";
     private static final String TAG = "MainViewActivity";
 
@@ -88,9 +88,13 @@ public class MainViewActivity extends AppCompatActivity {
             sensorStatusTv.setText("Connected to: " + serial);
             connectSensorButton.setVisibility(View.GONE);
 
-            // Subscribe to Heart Rate & Linear Acceleration
-            subscribeToHeartRate(serial);
-            subscribeToLinearAcceleration(serial);
+            if (heartRateSubscription == null) {
+                subscribeToHeartRate(serial);
+            }
+
+            if (linearAccelerationSubscription == null) {
+                subscribeToLinearAcceleration(serial);
+            }
 
         } else {
             sensorStatusTv.setText("No sensor connected.");
@@ -99,30 +103,30 @@ public class MainViewActivity extends AppCompatActivity {
 
         // Monitor connection status
         subscriptions.add(MdsRx.Instance.connectedDeviceObservable()
-                .subscribe(new Consumer<MdsConnectedDevice>() {
-                    @Override
-                    public void accept(MdsConnectedDevice mdsConnectedDevice) {
-                        if (mdsConnectedDevice.getConnection() != null) {
-                            sensorStatusTv.setText("Connected to: " + mdsConnectedDevice.getSerial());
-                            connectSensorButton.setVisibility(View.GONE);
+                .subscribe(mdsConnectedDevice -> {
+                    if (mdsConnectedDevice.getConnection() != null) {
+                        sensorStatusTv.setText("Connected to: " + mdsConnectedDevice.getSerial());
+                        connectSensorButton.setVisibility(View.GONE);
 
-                            // Re-subscribe when reconnected
+                        // Re-subscribe when reconnected
+                        if (heartRateSubscription == null) {
                             subscribeToHeartRate(mdsConnectedDevice.getSerial());
-                            subscribeToLinearAcceleration(mdsConnectedDevice.getSerial());
-                        } else {
-                            sensorStatusTv.setText("No sensor connected.");
-                            connectSensorButton.setVisibility(View.VISIBLE);
-                            unsubscribeHeartRate();
-                            unsubscribeLinearAcceleration();
                         }
+
+                        if (linearAccelerationSubscription == null) {
+                            subscribeToLinearAcceleration(mdsConnectedDevice.getSerial());
+                        }
+                    } else {
+                        sensorStatusTv.setText("No sensor connected.");
+                        connectSensorButton.setVisibility(View.VISIBLE);
+                        unsubscribeHeartRate();
+                        unsubscribeLinearAcceleration();
                     }
                 }, throwable -> Log.e(TAG, "Error observing sensor connection", throwable)));
     }
 
     private void subscribeToHeartRate(String serial) {
-        if (heartRateSubscription != null) {
-            heartRateSubscription.unsubscribe();
-        }
+        if (heartRateSubscription != null) return;
 
         heartRateSubscription = Mds.builder().build(this).subscribe(URI_EVENTLISTENER,
                 String.format(Locale.US, "{\"Uri\": \"%s/%s\"}", serial, HEART_RATE_PATH),
@@ -145,9 +149,7 @@ public class MainViewActivity extends AppCompatActivity {
     }
 
     private void subscribeToLinearAcceleration(String serial) {
-        if (linearAccelerationSubscription != null) {
-            linearAccelerationSubscription.unsubscribe();
-        }
+        if (linearAccelerationSubscription != null) return;
 
         linearAccelerationSubscription = Mds.builder().build(this).subscribe(URI_EVENTLISTENER,
                 String.format(Locale.US, "{\"Uri\": \"%s/%s\"}", serial, LINEAR_ACCELERATION_PATH),
