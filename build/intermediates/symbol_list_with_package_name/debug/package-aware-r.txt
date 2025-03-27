@@ -943,6 +943,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id distanceDisplay
 id ecg_changeScreenOrientation
 id ecg_lineChart
 id ecg_note
@@ -953,6 +954,8 @@ id edit_text_id
 id emailEditText
 id end
 id end_padder
+id exerciseHeartRateDisplay
+id exerciseTitle
 id expand_activities_button
 id expanded_menu
 id fill
@@ -1074,10 +1077,12 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id paceDisplay
 id packed
 id parent
 id parentPanel
 id passwordEditText
+id pauseButton
 id percent
 id postWorkoutResultsButton
 id progress_circular
@@ -1138,6 +1143,8 @@ id standard
 id start
 id startExerciseSessionButton
 id status_bar_latest_event_content
+id stepCountDisplay
+id stopButton
 id submenuarrow
 id submit_area
 id switchSubscription
@@ -1185,17 +1192,14 @@ id wide
 id withText
 id wrap
 id wrap_content
-id xAxisDisplay
 id x_axis_angularVelocity_textView
 id x_axis_linearAcc_textView
 id x_axis_magneticField_textView
 id x_axis_textView
-id yAxisDisplay
 id y_axis_angularVelocity_textView
 id y_axis_linearAcc_textView
 id y_axis_magneticField_textView
 id y_axis_textView
-id zAxisDisplay
 id z_axis_angularVelocity_textView
 id z_axis_linearAcc_textView
 id z_axis_magneticField_textView

@@ -24,7 +24,7 @@ public class SignupActivity extends AppCompatActivity {
     private Button signupButton;
     private TextView alreadyHaveAccount;
 
-    private static final String BASE_URL = "http://192.168.0.178/";
+    private static final String BASE_URL = "http://192.168.0.179/";
 
 
     @Override

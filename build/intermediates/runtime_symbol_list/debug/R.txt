@@ -942,6 +942,7 @@ int id dialog_button 0x7f08007f
 int id dimensions 0x7f080080
 int id direct 0x7f080081
 int id disableHome 0x7f080082
+int id distanceDisplay 0x7f080195
 int id ecg_changeScreenOrientation 0x7f080083
 int id ecg_lineChart 0x7f080084
 int id ecg_note 0x7f080085
@@ -952,6 +953,8 @@ int id edit_text_id 0x7f080089
 int id emailEditText 0x7f08008a
 int id end 0x7f08008b
 int id end_padder 0x7f08008d
+int id exerciseHeartRateDisplay 0x7f08018e
+int id exerciseTitle 0x7f08008e
 int id expand_activities_button 0x7f08008f
 int id expanded_menu 0x7f080090
 int id fill 0x7f080091
@@ -1073,10 +1076,12 @@ int id notification_main_column 0x7f080106
 int id notification_main_column_container 0x7f080107
 int id off 0x7f080108
 int id on 0x7f080109
+int id paceDisplay 0x7f0801a2
 int id packed 0x7f08010a
 int id parent 0x7f08010b
 int id parentPanel 0x7f08010c
 int id passwordEditText 0x7f08010d
+int id pauseButton 0x7f080192
 int id percent 0x7f08010f
 int id postWorkoutResultsButton 0x7f080110
 int id progress_circular 0x7f080111
@@ -1137,6 +1142,8 @@ int id standard 0x7f080147
 int id start 0x7f080148
 int id startExerciseSessionButton 0x7f080149
 int id status_bar_latest_event_content 0x7f08014a
+int id stepCountDisplay 0x7f080196
+int id stopButton 0x7f080193
 int id submenuarrow 0x7f08014b
 int id submit_area 0x7f08014c
 int id switchSubscription 0x7f08014d
@@ -1184,17 +1191,14 @@ int id wide 0x7f080176
 int id withText 0x7f080177
 int id wrap 0x7f080178
 int id wrap_content 0x7f080179
-int id xAxisDisplay 0x7f08017a
 int id x_axis_angularVelocity_textView 0x7f08017b
 int id x_axis_linearAcc_textView 0x7f08017c
 int id x_axis_magneticField_textView 0x7f08017d
 int id x_axis_textView 0x7f08017e
-int id yAxisDisplay 0x7f08017f
 int id y_axis_angularVelocity_textView 0x7f080180
 int id y_axis_linearAcc_textView 0x7f080181
 int id y_axis_magneticField_textView 0x7f080182
 int id y_axis_textView 0x7f080183
-int id zAxisDisplay 0x7f080184
 int id z_axis_angularVelocity_textView 0x7f080185
 int id z_axis_linearAcc_textView 0x7f080186
 int id z_axis_magneticField_textView 0x7f080187

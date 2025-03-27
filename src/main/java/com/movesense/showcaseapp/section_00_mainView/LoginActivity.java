@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button loginButton;
     private TextView signUpText;
 
-    private static final String BASE_URL = "http://192.168.0.178/";  // Replace with your WAMP server IP
+    private static final String BASE_URL = "http://192.168.0.179/";  // Replace with your WAMP server IP
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
