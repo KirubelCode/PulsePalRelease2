@@ -890,6 +890,7 @@ id blocking
 id bottom
 id buttonGet
 id buttonPanel
+id caloriesDisplay
 id cancel_action
 id center
 id center_horizontal

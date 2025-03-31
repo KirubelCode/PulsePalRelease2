@@ -22,27 +22,23 @@
         android:layout_marginTop="40dp" />
 
     <!-- Heart Rate Section -->
-
-
-    <!-- Start Exercise Session Button -->
-
-    <!-- View Post Workout Results Button -->
     <ImageView
         android:id="@+id/heartRateIcon"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="24dp"
         android:contentDescription="Heart Icon"
         android:src="@drawable/ic_heart"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/dashboardTitle" />
 
+
+    <!-- Start Exercise Session Button -->
     <TextView
         android:id="@+id/heartRateDisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="60dp"
         android:text="Heart Rate: -- bpm"
         android:textColor="@android:color/black"
         android:textSize="22sp"
@@ -50,22 +46,22 @@
         app:layout_constraintBottom_toBottomOf="@id/heartRateIcon"
         app:layout_constraintStart_toEndOf="@id/heartRateIcon"
         app:layout_constraintTop_toTopOf="@id/heartRateIcon"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/startExerciseSessionButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
-        android:backgroundTint="@android:color/holo_blue_dark"
         android:text="Start Exercise Session"
+        android:backgroundTint="@android:color/holo_blue_dark"
         android:textColor="@android:color/white"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/heartRateDisplay"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/heartRateDisplay" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- View Post Workout Results Button -->
     <Button
         android:id="@+id/postWorkoutResultsButton"
         android:layout_width="0dp"
@@ -94,6 +90,17 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Sensor Status -->
+    <TextView
+        android:id="@+id/sensorStatusTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No sensor connected."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/connectSensorButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Settings Button -->
     <Button

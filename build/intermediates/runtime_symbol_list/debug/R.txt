@@ -889,6 +889,7 @@ int id blocking 0x7f08004a
 int id bottom 0x7f08004b
 int id buttonGet 0x7f08004c
 int id buttonPanel 0x7f08004d
+int id caloriesDisplay 0x7f0801a3
 int id cancel_action 0x7f08004e
 int id center 0x7f08004f
 int id center_horizontal 0x7f080050

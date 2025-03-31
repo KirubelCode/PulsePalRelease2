@@ -82,32 +82,46 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp" />
 
+    <!-- Calories -->
+    <TextView
+        android:id="@+id/caloriesDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories: 0.00 kcal"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/paceDisplay"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp" />
+
+
     <!-- Pause Button -->
+
+    <!-- Stop Button -->
     <Button
         android:id="@+id/pauseButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Pause"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
         android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Pause"
         android:textColor="@android:color/white"
-        app:layout_constraintTop_toBottomOf="@id/paceDisplay"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/stopButton"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/paceDisplay" />
 
-    <!-- Stop Button -->
     <Button
         android:id="@+id/stopButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Stop"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
         android:backgroundTint="@android:color/holo_red_light"
+        android:text="Stop"
         android:textColor="@android:color/white"
-        app:layout_constraintTop_toBottomOf="@id/paceDisplay"
-        app:layout_constraintStart_toEndOf="@id/pauseButton"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"
-        android:layout_marginStart="8dp" />
+        app:layout_constraintStart_toEndOf="@id/pauseButton"
+        app:layout_constraintTop_toBottomOf="@id/paceDisplay" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

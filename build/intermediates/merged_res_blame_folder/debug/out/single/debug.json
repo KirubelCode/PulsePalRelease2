@@ -8,16 +8,16 @@
         "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_multi_connection.xml"
     },
     {
-        "merged": "com.movesense.showcaseapp-merged_res-22:/layout_activity_main_view.xml.flat",
-        "source": "com.movesense.showcaseapp-main-24:/layout/activity_main_view.xml"
-    },
-    {
         "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_movesense.jpg.flat",
         "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\movesense.jpg"
     },
     {
         "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_imut_test.xml.flat",
         "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_imut_test.xml"
+    },
+    {
+        "merged": "com.movesense.showcaseapp-merged_res-22:/layout_activity_exercise_session.xml.flat",
+        "source": "com.movesense.showcaseapp-main-24:/layout/activity_exercise_session.xml"
     },
     {
         "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_exercise_session.xml.flat",

@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button loginButton;
     private TextView signUpText;
 
-    private static final String BASE_URL = "http://192.168.0.179/";  // Replace with your WAMP server IP
+    private static final String BASE_URL = "http://192.168.0.179/";  //  WAMP server IP
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +47,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         signUpText.setOnClickListener(view -> {
-            Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
-            startActivity(intent);
+            startActivity(new Intent(LoginActivity.this, SignupActivity.class));
             finish();
         });
     }
@@ -68,14 +67,20 @@ public class LoginActivity extends AppCompatActivity {
                 if (response.isSuccessful() && response.body() != null && response.body().isSuccess()) {
                     Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
 
+                    User user = response.body().getUser();
+
                     SharedPreferences sharedPreferences = getSharedPreferences("PulsePalPrefs", MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putBoolean("isLoggedIn", true);
-                    editor.putString("userEmail", email);
+                    editor.putString("userEmail", user.getEmail());
+                    editor.putString("fullName", user.getFullName());
+                    editor.putInt("age", user.getAge());
+                    editor.putString("gender", user.getGender());
+                    editor.putFloat("height", user.getHeight());
+                    editor.putFloat("weight", user.getWeight());
                     editor.apply();
 
-                    Intent intent = new Intent(LoginActivity.this, MainViewActivity.class);
-                    startActivity(intent);
+                    startActivity(new Intent(LoginActivity.this, MainViewActivity.class));
                     finish();
                 } else {
                     Toast.makeText(LoginActivity.this, "Invalid email or password", Toast.LENGTH_SHORT).show();

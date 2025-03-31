@@ -1,17 +1,21 @@
 package com.movesense.showcaseapp.sensor;
 
 public class SimpleStepCounter {
-    // Increase threshold to avoid noise when stationary.
-    private static final float STEP_THRESHOLD = 10.5f; // m/s² (adjust as needed)
-    private static final long MIN_STEP_INTERVAL_MS =300 ; // ms debounce
+    // Thresholds for step detection:
+    private static final float RUNNING_STEP_THRESHOLD = 10.5f; // for running/jogging
+    private static final float WALKING_STEP_THRESHOLD = 9.83f;  // for walking (more sensitive)
+
+    // Debounce intervals:
+    private static final long RUNNING_DEBOUNCE_MS = 300; // for running/jogging
+    private static final long WALKING_DEBOUNCE_MS = 465; // for walking
 
     // Low-pass filter smoothing factor
-    private static final float ALPHA = 0.05f;
+    private static final float ALPHA = 0.5f;
 
     private int stepCount = 0;
     private long lastStepTime = 0;
 
-    // Personalised stride length (in meters)
+    // Personalized stride length (in meters)
     private float strideLength = 0.75f;
 
     // Low-pass filter state
@@ -22,7 +26,7 @@ public class SimpleStepCounter {
     private boolean paused = false;
 
     public void processAcceleration(float x, float y, float z) {
-        if(paused) return;  // Do nothing if paused
+        if (paused) return;  // Do nothing if paused
 
         // Calculate raw magnitude
         float magnitude = (float) Math.sqrt(x * x + y * y + z * z);
@@ -40,8 +44,15 @@ public class SimpleStepCounter {
 
         long currentTime = System.currentTimeMillis();
 
-        // Count a step if the filtered magnitude exceeds the threshold and debounce time has passed
-        if (filtered > STEP_THRESHOLD && (currentTime - lastStepTime) > MIN_STEP_INTERVAL_MS) {
+        // Check for a running/jogging step first.
+        if (filtered > RUNNING_STEP_THRESHOLD && (currentTime - lastStepTime) > RUNNING_DEBOUNCE_MS) {
+            stepCount++;
+            lastStepTime = currentTime;
+        }
+        // Else, if the filtered value is above the walking threshold (but below running)
+        // and enough time (decreased cadence) has passed, count as a walking step.
+        else if (filtered > WALKING_STEP_THRESHOLD && filtered <= RUNNING_STEP_THRESHOLD &&
+                (currentTime - lastStepTime) > WALKING_DEBOUNCE_MS) {
             stepCount++;
             lastStepTime = currentTime;
         }
