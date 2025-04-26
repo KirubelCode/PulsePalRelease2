@@ -6,6 +6,8 @@ public class SensorConnectionManager {
     private static SensorConnectionManager instance;
     private Mds mds;
     private String sensorSerial;
+
+    // Returns singleton
     public static SensorConnectionManager getInstance(){
         if(instance==null) instance = new SensorConnectionManager();
         return instance;

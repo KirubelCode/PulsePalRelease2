@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Screen title -->
+        <TextView
+            android:id="@+id/goalTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Session Goal"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Metric selector -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metric"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"/>
+        <Spinner
+            android:id="@+id/metricSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/metric_options"
+            android:prompt="@string/select_metric_prompt"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Operator selector -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Condition"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"/>
+        <Spinner
+            android:id="@+id/operatorSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/operator_options"
+            android:prompt="@string/select_operator_prompt"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Target value input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target Value"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/targetValueEt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="e.g. 100"
+            android:inputType="numberDecimal"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Duration input in minutes -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration (min)"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/durationEt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:visibility="gone"
+            android:hint="e.g. 5"
+            android:inputType="number"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Save button -->
+        <Button
+            android:id="@+id/saveGoalBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Save Goal"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorPrimary"/>
+
+    </LinearLayout>
+</ScrollView>

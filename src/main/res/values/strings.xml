@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">Movesense Showcase App</string>
+    <string name="app_name">PulsePal</string>
 
     <string name="title_location_permission">Location permission</string>
     <string name="text_location_permission">Bluetooth LE scanning requires location permission</string>
     <string name="btn_ok">OK</string>
+    <string name="select_session_prompt">Select session</string>
+    <string name="view_preset_prompt">View preset</string>
+    <string name="marker_interval_prompt">Marker every…</string>
+
 
     <string name="btn_get">Get</string>
     <string name="linear_acceleration_name">Linear Acceleration</string>
@@ -82,5 +86,9 @@
         <item>Female</item>
         <item>Other</item>
     </string-array>
+    <string name="select_metric_prompt">Choose metric</string>
+    <string name="select_operator_prompt">Choose condition</string>
+
+
 
 </resources>

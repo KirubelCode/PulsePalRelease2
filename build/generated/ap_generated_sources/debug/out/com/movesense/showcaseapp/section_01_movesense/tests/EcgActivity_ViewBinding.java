@@ -21,11 +21,11 @@ import java.lang.Override;
 public class EcgActivity_ViewBinding implements Unbinder {
   private EcgActivity target;
 
-  private View view7f08014d;
+  private View view7f090237;
 
-  private View view7f080140;
+  private View view7f09021e;
 
-  private View view7f080083;
+  private View view7f0900c5;
 
   @UiThread
   public EcgActivity_ViewBinding(EcgActivity target) {
@@ -39,7 +39,7 @@ public class EcgActivity_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.switchSubscription, "field 'mSwitchSubscription' and method 'onCheckedChanged'");
     target.mSwitchSubscription = Utils.castView(view, R.id.switchSubscription, "field 'mSwitchSubscription'", SwitchCompat.class);
-    view7f08014d = view;
+    view7f090237 = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -51,7 +51,7 @@ public class EcgActivity_ViewBinding implements Unbinder {
     target.mConnectedDeviceSwVersionTextView = Utils.findRequiredViewAsType(source, R.id.connected_device_swVersion_textView, "field 'mConnectedDeviceSwVersionTextView'", TextView.class);
     view = Utils.findRequiredView(source, R.id.spinner, "field 'mSpinner' and method 'onItemSelected'");
     target.mSpinner = Utils.castView(view, R.id.spinner, "field 'mSpinner'", Spinner.class);
-    view7f080140 = view;
+    view7f09021e = view;
     ((AdapterView<?>) view).setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
       @Override
       public void onItemSelected(AdapterView<?> p0, View p1, int p2, long p3) {
@@ -68,7 +68,7 @@ public class EcgActivity_ViewBinding implements Unbinder {
     target.mHeartRateTextView = Utils.findRequiredViewAsType(source, R.id.heart_rate_textView, "field 'mHeartRateTextView'", TextView.class);
     target.mRrTextView = Utils.findRequiredViewAsType(source, R.id.rr_textView, "field 'mRrTextView'", TextView.class);
     view = Utils.findRequiredView(source, R.id.ecg_changeScreenOrientation, "method 'onScreenOrientationChangeClick'");
-    view7f080083 = view;
+    view7f0900c5 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -95,11 +95,11 @@ public class EcgActivity_ViewBinding implements Unbinder {
     target.mHeartRateTextView = null;
     target.mRrTextView = null;
 
-    ((CompoundButton) view7f08014d).setOnCheckedChangeListener(null);
-    view7f08014d = null;
-    ((AdapterView<?>) view7f080140).setOnItemSelectedListener(null);
-    view7f080140 = null;
-    view7f080083.setOnClickListener(null);
-    view7f080083 = null;
+    ((CompoundButton) view7f090237).setOnCheckedChangeListener(null);
+    view7f090237 = null;
+    ((AdapterView<?>) view7f09021e).setOnItemSelectedListener(null);
+    view7f09021e = null;
+    view7f0900c5.setOnClickListener(null);
+    view7f0900c5 = null;
   }
 }

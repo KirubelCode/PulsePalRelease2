@@ -70,337 +70,431 @@
 38-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:25:22-71
 39        android:maxSdkVersion="30" />
 39-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:25:72-98
-40
-41    <uses-feature
-41-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-89
-42        android:name="android.hardware.bluetooth_le"
-42-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:19-63
-43        android:required="true" />
-43-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:64-87
-44
-45    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
-45-->[com.polidea.rxandroidble2:rxandroidble:1.10.2] C:\Users\kirut\.gradle\caches\transforms-3\16e6216b4b2d4a001234eded65254192\transformed\jetified-rxandroidble-1.10.2\AndroidManifest.xml:14:5-88
-45-->[com.polidea.rxandroidble2:rxandroidble:1.10.2] C:\Users\kirut\.gradle\caches\transforms-3\16e6216b4b2d4a001234eded65254192\transformed\jetified-rxandroidble-1.10.2\AndroidManifest.xml:14:29-85
-46
-47    <permission
-47-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-48        android:name="com.movesense.showcaseapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-48-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-49        android:protectionLevel="signature" />
-49-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-50
-51    <uses-permission android:name="com.movesense.showcaseapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-51-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-51-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-52
-53    <application
-53-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:29:5-160:19
-54        android:name="com.movesense.showcaseapp.SampleApp"
-54-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:30:9-34
-55        android:allowBackup="true"
-55-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:31:9-35
-56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-56-->[androidx.core:core:1.12.0] C:\Users\kirut\.gradle\caches\transforms-3\43193660796dfff329f9637bf5483cf2\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-57        android:debuggable="true"
-58        android:extractNativeLibs="true"
-59        android:icon="@mipmap/ic_launcher"
-59-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:32:9-43
-60        android:label="@string/app_name"
-60-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:33:9-41
-61        android:supportsRtl="true"
-61-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:34:9-35
-62        android:testOnly="true"
-63        android:theme="@style/AppTheme"
-63-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:35:9-40
-64        android:usesCleartextTraffic="true" > <!-- Ensures HTTP connections work -->
-64-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:36:9-44
-65
-66
-67        <!-- Signup Activity (Launcher) -->
-68        <activity
-68-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:39:9-46:20
-69            android:name="com.movesense.showcaseapp.section_00_mainView.SignupActivity"
-69-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:13-63
-70            android:exported="true" >
-70-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:13-36
-71            <intent-filter>
-71-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:42:13-45:29
-72                <action android:name="android.intent.action.MAIN" />
-72-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:43:17-69
-72-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:43:25-66
-73
-74                <category android:name="android.intent.category.LAUNCHER" />
-74-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:44:17-77
-74-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:44:27-74
-75            </intent-filter>
-76        </activity>
-77
-78        <!-- Login Activity -->
-79        <activity
-79-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:49:9-51:39
-80            android:name="com.movesense.showcaseapp.section_00_mainView.LoginActivity"
-80-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:50:13-62
-81            android:exported="true" />
-81-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:51:13-36
-82
-83        <!-- Main Dashboard -->
-84        <activity
-84-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:54:9-57:52
-85            android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
-85-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:55:13-65
-86            android:exported="true"
-86-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:56:13-36
-87            android:screenOrientation="portrait" />
-87-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:57:13-49
-88        <activity android:name="com.movesense.showcaseapp.section_00_mainView.ExerciseSessionActivity" />
-88-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:59:9-81
-88-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:59:19-78
-89
-90        <!-- Movesense Sensor Connection -->
-91        <activity
-91-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:62:9-64:51
-92            android:name="com.movesense.showcaseapp.section_01_movesense.MovesenseActivity"
-92-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:63:13-67
-93            android:screenOrientation="portrait" />
-93-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:64:13-49
-94
-95        <!-- Movesense Sensor Data & Tests -->
+40    <uses-permission android:name="android.permission.WAKE_LOCK" />
+40-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:26:5-67
+40-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:26:22-65
+41
+42    <uses-feature
+42-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:28:5-89
+43        android:name="android.hardware.bluetooth_le"
+43-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:28:19-63
+44        android:required="true" />
+44-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:28:64-87
+45
+46    <uses-permission android:name="android.permission.INTERNET" />
+46-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:16:5-66
+46-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:16:22-64
+47
+48    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+48-->[com.polidea.rxandroidble2:rxandroidble:1.10.2] C:\Users\kirut\.gradle\caches\transforms-3\16e6216b4b2d4a001234eded65254192\transformed\jetified-rxandroidble-1.10.2\AndroidManifest.xml:14:5-88
+48-->[com.polidea.rxandroidble2:rxandroidble:1.10.2] C:\Users\kirut\.gradle\caches\transforms-3\16e6216b4b2d4a001234eded65254192\transformed\jetified-rxandroidble-1.10.2\AndroidManifest.xml:14:29-85
+49
+50    <permission
+50-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+51        android:name="com.movesense.showcaseapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+51-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+52        android:protectionLevel="signature" />
+52-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+53
+54    <uses-permission android:name="com.movesense.showcaseapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+54-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+54-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+55
+56    <application
+56-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:30:5-174:19
+57        android:name="com.movesense.showcaseapp.SampleApp"
+57-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:31:9-34
+58        android:allowBackup="true"
+58-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:32:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+60        android:debuggable="true"
+61        android:extractNativeLibs="true"
+62        android:icon="@mipmap/ic_launcher"
+62-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:33:9-43
+63        android:label="@string/app_name"
+63-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:34:9-41
+64        android:supportsRtl="true"
+64-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:35:9-35
+65        android:testOnly="true"
+66        android:theme="@style/AppTheme"
+66-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:36:9-40
+67        android:usesCleartextTraffic="true" > <!-- Ensures HTTP connections work -->
+67-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:37:9-44
+68
+69
+70        <!-- Signup Activity (Launcher) -->
+71        <activity
+71-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:9-47:20
+72            android:name="com.movesense.showcaseapp.section_00_mainView.SignupActivity"
+72-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:13-63
+73            android:exported="true" >
+73-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:42:13-36
+74            <intent-filter>
+74-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:43:13-46:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:44:17-69
+75-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:44:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:45:17-77
+77-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:45:27-74
+78            </intent-filter>
+79        </activity>
+80
+81        <!-- Login Activity -->
+82        <activity
+82-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:50:9-52:39
+83            android:name="com.movesense.showcaseapp.section_00_mainView.LoginActivity"
+83-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:51:13-62
+84            android:exported="true" />
+84-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:52:13-36
+85        <activity
+85-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:54:9-57:38
+86            android:name="com.movesense.showcaseapp.section_00_mainView.WorkoutResultsActivity"
+86-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:54:19-77
+87            android:exported="true"
+87-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:57:13-36
+88            android:label="Workout Results"
+88-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:55:13-44
+89            android:theme="@style/AppTheme" />
+89-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:56:13-44
+90
+91        <!-- Main Dashboard -->
+92        <activity
+92-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:61:9-64:52
+93            android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
+93-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:62:13-65
+94            android:exported="true"
+94-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:63:13-36
+95            android:screenOrientation="portrait" />
+95-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:64:13-49
 96        <activity
-96-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:9-116
-97            android:name="com.movesense.showcaseapp.section_01_movesense.tests.LedTestActivity"
-97-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:19-77
-98            android:screenOrientation="portrait" />
-98-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:78-114
-99        <activity
-99-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:9-131
-100            android:name="com.movesense.showcaseapp.section_01_movesense.tests.LinearAccelerationTestActivity"
-100-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:19-92
-101            android:screenOrientation="portrait" />
-101-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:93-129
-102        <activity
-102-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:9-122
-103            android:name="com.movesense.showcaseapp.section_01_movesense.tests.HeartRateTestActivity"
-103-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:19-83
-104            android:screenOrientation="portrait" />
-104-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:84-120
-105        <activity
-105-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:70:9-124
-106            android:name="com.movesense.showcaseapp.section_01_movesense.tests.TemperatureTestActivity"
-106-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:70:19-85
-107            android:screenOrientation="portrait" />
-107-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:70:86-122
-108        <activity
-108-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:9-126
-109            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MagneticFieldTestActivity"
-109-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:19-87
-110            android:screenOrientation="portrait" />
-110-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:88-124
-111        <activity
-111-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:72:9-124
-112            android:name="com.movesense.showcaseapp.section_01_movesense.tests.AngularVelocityActivity"
-112-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:72:19-85
-113            android:screenOrientation="portrait" />
-113-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:72:86-122
-114        <activity
-114-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:9-123
-115            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MultiSubscribeActivity"
-115-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:19-84
-116            android:screenOrientation="portrait" />
-116-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:85-121
-117
-118        <!-- Multi Sensor Connection -->
-119        <activity
-119-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:76:9-78:51
-120            android:name="com.movesense.showcaseapp.section_02_multi_connection.connection.MultiConnectionActivity"
-120-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:77:13-91
-121            android:screenOrientation="portrait" />
-121-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:78:13-49
-122
-123        <!-- Movesense Data Storage & Logs -->
+96-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:66:9-69:55
+97            android:name="com.movesense.showcaseapp.section_00_mainView.ExerciseSessionActivity"
+97-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:67:13-72
+98            android:configChanges="orientation|screenSize"
+98-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:13-59
+99            android:screenOrientation="unspecified" />
+99-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:13-52
+100        <activity android:name="com.movesense.showcaseapp.section_00_mainView.GoalTrackActivity" />
+100-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:9-75
+100-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:19-72
+101        <activity android:name="com.movesense.showcaseapp.section_00_mainView.SettingsActivity" />
+101-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:9-74
+101-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:19-71
+102
+103        <!-- Movesense Sensor Connection -->
+104        <activity
+104-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:76:9-78:51
+105            android:name="com.movesense.showcaseapp.section_01_movesense.MovesenseActivity"
+105-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:77:13-67
+106            android:screenOrientation="portrait" />
+106-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:78:13-49
+107
+108        <!-- Movesense Sensor Data & Tests -->
+109        <activity
+109-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:81:9-116
+110            android:name="com.movesense.showcaseapp.section_01_movesense.tests.LedTestActivity"
+110-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:81:19-77
+111            android:screenOrientation="portrait" />
+111-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:81:78-114
+112        <activity
+112-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:82:9-131
+113            android:name="com.movesense.showcaseapp.section_01_movesense.tests.LinearAccelerationTestActivity"
+113-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:82:19-92
+114            android:screenOrientation="portrait" />
+114-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:82:93-129
+115        <activity
+115-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:83:9-122
+116            android:name="com.movesense.showcaseapp.section_01_movesense.tests.HeartRateTestActivity"
+116-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:83:19-83
+117            android:screenOrientation="portrait" />
+117-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:83:84-120
+118        <activity
+118-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:84:9-124
+119            android:name="com.movesense.showcaseapp.section_01_movesense.tests.TemperatureTestActivity"
+119-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:84:19-85
+120            android:screenOrientation="portrait" />
+120-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:84:86-122
+121        <activity
+121-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:85:9-126
+122            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MagneticFieldTestActivity"
+122-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:85:19-87
+123            android:screenOrientation="portrait" />
+123-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:85:88-124
 124        <activity
-124-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:81:9-83:51
-125            android:name="com.movesense.showcaseapp.google_drive.SendLogsToGoogleDriveActivity"
-125-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:82:13-71
+124-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:86:9-124
+125            android:name="com.movesense.showcaseapp.section_01_movesense.tests.AngularVelocityActivity"
+125-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:86:19-85
 126            android:screenOrientation="portrait" />
-126-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:83:13-49
+126-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:86:86-122
 127        <activity
-127-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:84:9-86:51
-128            android:name="com.movesense.showcaseapp.section_04_saved_data.SavedDataActivity"
-128-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:85:13-68
+127-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:87:9-123
+128            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MultiSubscribeActivity"
+128-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:87:19-84
 129            android:screenOrientation="portrait" />
-129-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:86:13-49
+129-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:87:85-121
 130
-131        <!-- Device Firmware Update -->
+131        <!-- Multi Sensor Connection -->
 132        <activity
-132-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:89:9-91:51
-133            android:name="com.movesense.showcaseapp.section_03_dfu.DfuActivity2"
-133-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:90:13-56
+132-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:90:9-92:51
+133            android:name="com.movesense.showcaseapp.section_02_multi_connection.connection.MultiConnectionActivity"
+133-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:91:13-91
 134            android:screenOrientation="portrait" />
-134-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:91:13-49
+134-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:92:13-49
 135
-136        <service
-136-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:92:9-96:62
-137            android:name="com.movesense.showcaseapp.section_03_dfu.DfuService"
-137-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:93:13-54
-138            android:enabled="true"
-138-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:94:13-35
-139            android:exported="true"
-139-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:95:13-36
-140            android:foregroundServiceType="connectedDevice" />
-140-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:96:13-60
-141
-142        <!-- About Page -->
-143        <activity
-143-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:99:9-101:51
-144            android:name="com.movesense.showcaseapp.section_06_about.AboutActivity"
-144-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:100:13-59
-145            android:screenOrientation="portrait" />
-145-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:101:13-49
-146
-147        <!-- Sensor List -->
-148        <activity
-148-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:104:9-106:51
-149            android:name="com.movesense.showcaseapp.section_01_movesense.sensors.sensors_list.SensorListActivity"
-149-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:105:13-89
-150            android:screenOrientation="portrait" />
-150-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:106:13-49
-151
-152        <!-- Multi Sensor Usage -->
-153        <activity
-153-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:109:9-111:51
-154            android:name="com.movesense.showcaseapp.section_02_multi_connection.sensor_usage.MultiSensorUsageActivity"
-154-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:110:13-94
-155            android:screenOrientation="portrait" />
-155-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:111:13-49
-156
-157        <!-- Movesense ECG & Battery -->
-158        <activity
-158-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:114:9-117:76
-159            android:name="com.movesense.showcaseapp.section_01_movesense.tests.EcgActivity"
-159-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:115:13-67
-160            android:configChanges="keyboardHidden|orientation|screenSize"
-160-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:117:13-74
-161            android:screenOrientation="portrait" />
-161-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:116:13-49
-162        <activity
-162-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:118:9-120:51
-163            android:name="com.movesense.showcaseapp.section_01_movesense.tests.BatteryActivity"
-163-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:119:13-71
-164            android:screenOrientation="portrait" />
-164-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:120:13-49
-165
-166        <!-- Movesense Device Info -->
-167        <activity
-167-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:123:9-125:51
-168            android:name="com.movesense.showcaseapp.section_01_movesense.tests.AppInfoActivity"
-168-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:124:13-71
-169            android:screenOrientation="portrait" />
-169-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:125:13-49
-170        <activity
-170-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:126:9-128:51
-171            android:name="com.movesense.showcaseapp.section_01_movesense.tests.ImuActivity"
-171-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:127:13-67
-172            android:screenOrientation="portrait" />
-172-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:128:13-49
-173        <activity
-173-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:129:9-131:51
-174            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MemoryDiagnosticActivity"
-174-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:130:13-80
-175            android:screenOrientation="portrait" />
-175-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:131:13-49
-176
-177        <!-- Movesense Device Settings -->
-178        <activity
-178-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:134:9-136:51
-179            android:name="com.movesense.showcaseapp.section_01_movesense.device_settings.DeviceSettingsActivity"
-179-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:135:13-88
-180            android:screenOrientation="portrait" />
-180-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:136:13-49
-181
-182        <!-- Bluetooth & Device Services -->
-183        <receiver
-183-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:139:9-146:20
-184            android:name="com.movesense.showcaseapp.bluetooth.BluetoothStatusReceiver"
-184-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:140:13-62
-185            android:enabled="true"
-185-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:141:13-35
-186            android:exported="false" >
-186-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:142:13-37
-187            <intent-filter>
-187-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:143:13-145:29
-188                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
-188-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:144:17-88
-188-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:144:25-86
-189            </intent-filter>
-190        </receiver>
-191        <receiver
-191-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:148:9-155:20
-192            android:name="com.movesense.showcaseapp.adb.AdbBridge"
-192-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:149:13-42
-193            android:enabled="true"
-193-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:150:13-35
-194            android:exported="true" >
-194-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:151:13-36
-195            <intent-filter>
-195-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:152:13-154:29
-196                <action android:name="android.intent.action.MOVESENSE" />
-196-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:153:17-73
-196-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:153:25-71
-197            </intent-filter>
-198        </receiver>
-199
-200        <!-- Base Activity -->
-201        <activity android:name="com.movesense.showcaseapp.BaseActivity" />
-201-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:158:9-49
-201-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:158:19-47
-202        <activity
-202-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
-203            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-203-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
-204            android:exported="false"
-204-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
-205            android:label=""
-205-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
-206            android:theme="@style/EasyPermissions.Transparent" />
-206-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
-207        <activity
-207-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
-208            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-208-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
-209            android:excludeFromRecents="true"
-209-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
-210            android:exported="false"
-210-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
-211            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-211-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
-212        <!--
-213            Service handling Google Sign-In user revocation. For apps that do not integrate with
-214            Google Sign-In, this service will never be started.
-215        -->
-216        <service
-216-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
-217            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-217-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
-218            android:exported="true"
-218-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
-219            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-219-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-220
-221        <activity
-221-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-222            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-222-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+136        <!-- Movesense Data Storage & Logs -->
+137        <activity
+137-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:95:9-97:51
+138            android:name="com.movesense.showcaseapp.google_drive.SendLogsToGoogleDriveActivity"
+138-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:96:13-71
+139            android:screenOrientation="portrait" />
+139-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:97:13-49
+140        <activity
+140-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:98:9-100:51
+141            android:name="com.movesense.showcaseapp.section_04_saved_data.SavedDataActivity"
+141-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:99:13-68
+142            android:screenOrientation="portrait" />
+142-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:100:13-49
+143
+144        <!-- Device Firmware Update -->
+145        <activity
+145-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:103:9-105:51
+146            android:name="com.movesense.showcaseapp.section_03_dfu.DfuActivity2"
+146-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:104:13-56
+147            android:screenOrientation="portrait" />
+147-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:105:13-49
+148
+149        <service
+149-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:106:9-110:62
+150            android:name="com.movesense.showcaseapp.section_03_dfu.DfuService"
+150-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:107:13-54
+151            android:enabled="true"
+151-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:108:13-35
+152            android:exported="true"
+152-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:109:13-36
+153            android:foregroundServiceType="connectedDevice" />
+153-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:110:13-60
+154
+155        <!-- About Page -->
+156        <activity
+156-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:113:9-115:51
+157            android:name="com.movesense.showcaseapp.section_06_about.AboutActivity"
+157-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:114:13-59
+158            android:screenOrientation="portrait" />
+158-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:115:13-49
+159
+160        <!-- Sensor List -->
+161        <activity
+161-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:118:9-120:51
+162            android:name="com.movesense.showcaseapp.section_01_movesense.sensors.sensors_list.SensorListActivity"
+162-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:119:13-89
+163            android:screenOrientation="portrait" />
+163-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:120:13-49
+164
+165        <!-- Multi Sensor Usage -->
+166        <activity
+166-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:123:9-125:51
+167            android:name="com.movesense.showcaseapp.section_02_multi_connection.sensor_usage.MultiSensorUsageActivity"
+167-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:124:13-94
+168            android:screenOrientation="portrait" />
+168-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:125:13-49
+169
+170        <!-- Movesense ECG & Battery -->
+171        <activity
+171-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:128:9-131:76
+172            android:name="com.movesense.showcaseapp.section_01_movesense.tests.EcgActivity"
+172-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:129:13-67
+173            android:configChanges="keyboardHidden|orientation|screenSize"
+173-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:131:13-74
+174            android:screenOrientation="portrait" />
+174-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:130:13-49
+175        <activity
+175-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:132:9-134:51
+176            android:name="com.movesense.showcaseapp.section_01_movesense.tests.BatteryActivity"
+176-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:133:13-71
+177            android:screenOrientation="portrait" />
+177-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:134:13-49
+178
+179        <!-- Movesense Device Info -->
+180        <activity
+180-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:137:9-139:51
+181            android:name="com.movesense.showcaseapp.section_01_movesense.tests.AppInfoActivity"
+181-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:138:13-71
+182            android:screenOrientation="portrait" />
+182-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:139:13-49
+183        <activity
+183-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:140:9-142:51
+184            android:name="com.movesense.showcaseapp.section_01_movesense.tests.ImuActivity"
+184-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:141:13-67
+185            android:screenOrientation="portrait" />
+185-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:142:13-49
+186        <activity
+186-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:143:9-145:51
+187            android:name="com.movesense.showcaseapp.section_01_movesense.tests.MemoryDiagnosticActivity"
+187-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:144:13-80
+188            android:screenOrientation="portrait" />
+188-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:145:13-49
+189
+190        <!-- Movesense Device Settings -->
+191        <activity
+191-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:148:9-150:51
+192            android:name="com.movesense.showcaseapp.section_01_movesense.device_settings.DeviceSettingsActivity"
+192-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:149:13-88
+193            android:screenOrientation="portrait" />
+193-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:150:13-49
+194
+195        <!-- Bluetooth & Device Services -->
+196        <receiver
+196-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:153:9-160:20
+197            android:name="com.movesense.showcaseapp.bluetooth.BluetoothStatusReceiver"
+197-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:154:13-62
+198            android:enabled="true"
+198-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:155:13-35
+199            android:exported="false" >
+199-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:156:13-37
+200            <intent-filter>
+200-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:157:13-159:29
+201                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+201-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:158:17-88
+201-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:158:25-86
+202            </intent-filter>
+203        </receiver>
+204        <receiver
+204-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:162:9-169:20
+205            android:name="com.movesense.showcaseapp.adb.AdbBridge"
+205-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:163:13-42
+206            android:enabled="true"
+206-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:164:13-35
+207            android:exported="true" >
+207-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:165:13-36
+208            <intent-filter>
+208-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:166:13-168:29
+209                <action android:name="android.intent.action.MOVESENSE" />
+209-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:167:17-73
+209-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:167:25-71
+210            </intent-filter>
+211        </receiver>
+212
+213        <!-- Base Activity -->
+214        <activity android:name="com.movesense.showcaseapp.BaseActivity" />
+214-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:172:9-49
+214-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:172:19-47
+215        <activity
+215-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+216            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+216-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+217            android:exported="false"
+217-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+218            android:label=""
+218-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+219            android:theme="@style/EasyPermissions.Transparent" />
+219-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+220        <activity
+220-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+221            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+221-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+222            android:excludeFromRecents="true"
+222-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
 223            android:exported="false"
-223-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+223-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
 224            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-224-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-225
-226        <meta-data
-226-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-227            android:name="com.google.android.gms.version"
-227-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-228            android:value="@integer/google_play_services_version" />
-228-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-229    </application>
-230
-231</manifest>
+224-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+225        <!--
+226            Service handling Google Sign-In user revocation. For apps that do not integrate with
+227            Google Sign-In, this service will never be started.
+228        -->
+229        <service
+229-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+230            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+230-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+231            android:exported="true"
+231-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+232            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+232-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+233
+234        <activity
+234-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+235            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+235-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+236            android:exported="false"
+236-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+238
+239        <meta-data
+239-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+240            android:name="com.google.android.gms.version"
+240-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+241            android:value="@integer/google_play_services_version" />
+241-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+242
+243        <provider
+243-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+244            android:name="androidx.startup.InitializationProvider"
+244-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+245            android:authorities="com.movesense.showcaseapp.androidx-startup"
+245-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+246            android:exported="false" >
+246-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+247            <meta-data
+247-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+248                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+248-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+249                android:value="androidx.startup" />
+249-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+250            <meta-data
+250-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\kirut\.gradle\caches\transforms-3\1ad79fc8e6cd77e71a8b4e59b3247a78\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+251                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+251-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\kirut\.gradle\caches\transforms-3\1ad79fc8e6cd77e71a8b4e59b3247a78\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+252                android:value="androidx.startup" />
+252-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\kirut\.gradle\caches\transforms-3\1ad79fc8e6cd77e71a8b4e59b3247a78\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+253            <meta-data
+253-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+254                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+255                android:value="androidx.startup" />
+255-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+256        </provider>
+257
+258        <receiver
+258-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+259            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+259-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+260            android:directBootAware="false"
+260-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+261            android:enabled="true"
+261-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+262            android:exported="true"
+262-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+263            android:permission="android.permission.DUMP" >
+263-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+264            <intent-filter>
+264-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+265                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+265-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+265-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+266            </intent-filter>
+267            <intent-filter>
+267-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+268                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+268-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+268-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+269            </intent-filter>
+270            <intent-filter>
+270-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+271                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+271-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+271-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+272            </intent-filter>
+273            <intent-filter>
+273-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+274                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+274-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+274-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+275            </intent-filter>
+276        </receiver>
+277    </application>
+278
+279</manifest>

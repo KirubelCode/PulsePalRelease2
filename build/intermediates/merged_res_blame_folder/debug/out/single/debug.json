@@ -1,234 +1,242 @@
 [
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_linear_acceleration_test.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_linear_acceleration_test.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_signup.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_multi_connection.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_multi_connection.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_imu.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_imu.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_movesense.jpg.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\movesense.jpg"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_ic_dfu_feature.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\ic_dfu_feature.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_imut_test.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_imut_test.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "com.movesense.showcaseapp-merged_res-22:/layout_activity_exercise_session.xml.flat",
-        "source": "com.movesense.showcaseapp-main-24:/layout/activity_exercise_session.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_file.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\file.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_exercise_session.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_exercise_session.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_red_stroke.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\red_stroke.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_red_stroke.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\red_stroke.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_yellow_stroke.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\yellow_stroke.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_imu.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_imu.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_multi_sensor_usage.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_multi_sensor_usage.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_sensor_list.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_sensor_list.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_white_stroke.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\white_stroke.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_signup.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_signup.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_black_stroke.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\black_stroke.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_app_info.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_app_info.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_base.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_base.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_black_stroke.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\black_stroke.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_device_settings.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_device_settings.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_movesense.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_movesense.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\menu\\menu.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\menu_send_logs_menu.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\menu\\send_logs_menu.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_saved_data.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_saved_data.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_battery.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_battery.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_inactive_background.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\inactive_background.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_saved_data.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_saved_data.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_baseline_poll_24.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\baseline_poll_24.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_flash_circle.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\flash_circle.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_angular_velocity.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_angular_velocity.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\menu_menu.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\menu\\menu.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_dfu2.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_dfu2.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_item_sensor_list.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\item_sensor_list.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_yellow_stroke.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\yellow_stroke.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_movesense.jpg.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\movesense.jpg"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_multi_sensor_usage.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_multi_sensor_usage.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_magnetic_field_test.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_magnetic_field_test.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_temperature_test.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_temperature_test.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable-xhdpi_ic_screen_rotation_white_24dp.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable-xhdpi\\ic_screen_rotation_white_24dp.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_base.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_base.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\raw_kompostisettings.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\raw\\kompostisettings.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_item_movesense.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\item_movesense.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_heart_rate_test.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_heart_rate_test.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_fragment_scan.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\fragment_scan.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_sensor_list.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_sensor_list.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_memory_diagnostic.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_memory_diagnostic.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_item_sensor_list.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\item_sensor_list.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_dfu2.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_dfu2.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_app_info.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_app_info.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_about.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_about.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_battery.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_battery.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_ic_dfu_feature.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\ic_dfu_feature.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable-xhdpi_baseline_poll_white_18dp.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable-xhdpi\\baseline_poll_white_18dp.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_multi_subscribe.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_multi_subscribe.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_google_circles.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\google_circles.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_temperature_test.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_temperature_test.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_multi_connection.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_multi_connection.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_ic_heart.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\ic_heart.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_item_goal_progress.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\item_goal_progress.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable-xhdpi_ic_screen_rotation_white_24dp.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable-xhdpi\\ic_screen_rotation_white_24dp.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_movesense.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_movesense.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_imu_test.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_imu_test.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_send_logs_to_google_drive.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_send_logs_to_google_drive.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_item_movesense.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\item_movesense.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_heart_rate_test.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_heart_rate_test.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_green_stroke.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\green_stroke.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_angular_velocity.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_angular_velocity.xml"
+        "merged": "com.movesense.showcaseapp-merged_res-39:/layout_activity_workout_results.xml.flat",
+        "source": "com.movesense.showcaseapp-main-41:/layout/activity_workout_results.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_fragment_ecg_portrait.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\fragment_ecg_portrait.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_exercise_session.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_exercise_session.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_ecg.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_ecg.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_fragment_ecg_landscape.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\fragment_ecg_landscape.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_ecg.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_ecg.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_green_stroke.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\green_stroke.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\menu_send_logs_menu.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\menu\\send_logs_menu.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_led_test.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_led_test.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_ic_heart.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\ic_heart.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_baseline_poll_24.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\baseline_poll_24.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_main_view.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_main_view.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_fragment_scan.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\fragment_scan.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable-xhdpi_baseline_poll_white_18dp.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable-xhdpi\\baseline_poll_white_18dp.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_led_test.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_led_test.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_file.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\file.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_goal_track.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_goal_track.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_device_settings.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_device_settings.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_fragment_ecg_portrait.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\fragment_ecg_portrait.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_memory_diagnostic.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_memory_diagnostic.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_inactive_background.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\inactive_background.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_google_circles.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\google_circles.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_send_logs_to_google_drive.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_send_logs_to_google_drive.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\drawable_white_stroke.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\drawable\\white_stroke.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_activity_main_view.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\activity_main_view.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_workout_results.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_workout_results.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\layout_fragment_ecg_landscape.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\layout\\fragment_ecg_landscape.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_magnetic_field_test.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_magnetic_field_test.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\xml_file_provider_paths.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\xml\\file_provider_paths.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_linear_acceleration_test.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_linear_acceleration_test.xml"
     },
     {
-        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-22:\\raw_kompostisettings.xml.flat",
-        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-24:\\raw\\kompostisettings.xml"
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\xml_file_provider_paths.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\xml\\file_provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\drawable_flash_circle.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\drawable\\flash_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-merged_res-39:\\layout_activity_multi_subscribe.xml.flat",
+        "source": "C:\\Users\\kirut\\.gradle\\daemon\\8.5\\com.movesense.showcaseapp-main-41:\\layout\\activity_multi_subscribe.xml"
     }
 ]

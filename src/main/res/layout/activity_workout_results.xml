@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Session Controls Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@android:color/black"
+        app:cardUseCompatPadding="true"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:showDividers="middle"
+            android:dividerPadding="8dp">
+
+            <Spinner
+                android:id="@+id/sessionSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:prompt="@string/select_session_prompt"
+                android:backgroundTint="@android:color/black"/>
+
+            <Spinner
+                android:id="@+id/presetSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:prompt="@string/view_preset_prompt"
+                android:backgroundTint="@android:color/black"/>
+
+            <Spinner
+                android:id="@+id/markerIntervalSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:prompt="@string/marker_interval_prompt"
+                android:backgroundTint="@android:color/black"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Metrics Chips Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@android:color/black"
+        app:cardUseCompatPadding="true"
+        android:padding="12dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/metricChipGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipSpacing="12dp"
+                app:singleSelection="false">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipHR"
+                    style="@style/Widget.MaterialComponents.Chip.Entry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HR"
+                    app:chipStrokeColor="@android:color/black"
+                    app:chipStrokeWidth="1dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipPace"
+                    style="@style/Widget.MaterialComponents.Chip.Entry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pace"
+                    app:chipStrokeColor="@android:color/black"
+                    app:chipStrokeWidth="1dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipDist"
+                    style="@style/Widget.MaterialComponents.Chip.Entry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dist"
+                    app:chipStrokeColor="@android:color/black"
+                    app:chipStrokeWidth="1dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipSteps"
+                    style="@style/Widget.MaterialComponents.Chip.Entry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steps"
+                    app:chipStrokeColor="@android:color/black"
+                    app:chipStrokeWidth="1dp"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipCals"
+                    style="@style/Widget.MaterialComponents.Chip.Entry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cals"
+                    app:chipStrokeColor="@android:color/black"
+                    app:chipStrokeWidth="1dp"/>
+
+            </com.google.android.material.chip.ChipGroup>
+        </HorizontalScrollView>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Show Markers Chip -->
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipToggleMarkers"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Markers"
+        android:checkable="true"
+        android:checked="true"
+        android:layout_gravity="center"
+        app:chipStrokeColor="@android:color/black"
+        app:chipStrokeWidth="1dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Chart Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@android:color/black"
+        app:cardUseCompatPadding="true"
+        android:padding="12dp">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Goal Summary -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@android:color/black"
+        app:cardUseCompatPadding="true"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:id="@+id/summaryContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:divider="@android:color/darker_gray"
+            android:showDividers="middle"
+            android:dividerPadding="8dp">
+            <!-- Dynamic rows go here -->
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

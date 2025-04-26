@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="metric_options">
+        <item>Heart Rate(bpm)</item>
+        <item>Pace(min/km)</item>
+        <item>Distance(meters)</item>
+        <item>Steps</item>
+        <item>Calories(kcal)</item>
+    </string-array>
+    <string-array name="operator_options">
+        <item>Below</item>
+        <item>Above</item>
+    </string-array>
+
+</resources>

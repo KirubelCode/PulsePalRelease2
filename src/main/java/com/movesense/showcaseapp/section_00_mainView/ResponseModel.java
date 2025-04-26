@@ -1,11 +1,22 @@
 package com.movesense.showcaseapp.section_00_mainView;
 
 public class ResponseModel {
-    private boolean success;
-    private String message;
+    public boolean success;
+    public String message;
     private User user;
 
-    public boolean isSuccess() { return success; }
-    public String getMessage() { return message; }
-    public User getUser() { return user; }
+    private int session_id;
+
+    public boolean isSuccess() {
+        return success;
+    }
+    public String getMessage() {
+        return message;
+    }
+    public User getUser() {
+        return user;
+    }
+    public int getSession_id() {
+        return session_id;
+    }
 }

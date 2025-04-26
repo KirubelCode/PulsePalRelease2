@@ -10,149 +10,147 @@
     <!-- Title -->
     <TextView
         android:id="@+id/signupTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Create Your PulsePal Account"
         android:textSize="22sp"
+        android:fontFamily="sans-serif-medium"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="40dp" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
-    <!-- Full Name -->
-    <EditText
-        android:id="@+id/fullNameEditText"
+    <!-- Input fields card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/inputsCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Full Name"
-        android:inputType="textPersonName"
-        android:padding="12dp"
-        android:background="@android:color/darker_gray"
+        android:layout_marginTop="24dp"
         app:layout_constraintTop_toBottomOf="@id/signupTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:strokeColor="@android:color/holo_blue_dark"
+        app:strokeWidth="2dp"
+        app:cardUseCompatPadding="true"
+        android:padding="16dp">
 
-    <!-- Email -->
-    <EditText
-        android:id="@+id/emailEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:padding="12dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintTop_toBottomOf="@id/fullNameEditText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <!-- Password -->
-    <EditText
-        android:id="@+id/passwordEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintTop_toBottomOf="@id/emailEditText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
+            <EditText
+                android:id="@+id/fullNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/darker_gray" />
 
-    <!-- Age -->
-    <EditText
-        android:id="@+id/ageEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Age"
-        android:inputType="number"
-        android:padding="12dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintTop_toBottomOf="@id/passwordEditText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/genderSpinner"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="8dp" />
+            <Space android:layout_width="match_parent" android:layout_height="12dp"/>
 
-    <!-- Gender -->
-    <Spinner
-        android:id="@+id/genderSpinner"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:entries="@array/gender_options"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintTop_toBottomOf="@id/passwordEditText"
-        app:layout_constraintStart_toEndOf="@id/ageEditText"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="16dp" />
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/darker_gray"/>
 
-    <!-- Height -->
-    <EditText
-        android:id="@+id/heightEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Height (cm)"
-        android:inputType="numberDecimal"
-        android:padding="12dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintTop_toBottomOf="@id/ageEditText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
+            <Space android:layout_width="match_parent" android:layout_height="12dp"/>
 
-    <!-- Weight -->
-    <EditText
-        android:id="@+id/weightEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Weight (kg)"
-        android:inputType="numberDecimal"
-        android:padding="12dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintTop_toBottomOf="@id/heightEditText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/darker_gray"/>
 
-    <!-- Signup Button -->
+            <Space android:layout_width="match_parent" android:layout_height="12dp"/>
+
+            <!-- Age & Gender row -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/ageEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:hint="Age"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:backgroundTint="@android:color/darker_gray"/>
+
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+
+                <Spinner
+                    android:id="@+id/genderSpinner"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:entries="@array/gender_options"
+                    android:backgroundTint="@android:color/darker_gray"/>
+            </LinearLayout>
+
+            <Space android:layout_width="match_parent" android:layout_height="12dp"/>
+
+            <EditText
+                android:id="@+id/heightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Height (cm)"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/darker_gray"/>
+
+            <Space android:layout_width="match_parent" android:layout_height="12dp"/>
+
+            <EditText
+                android:id="@+id/weightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Weight (kg)"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/darker_gray"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Sign Up button -->
     <Button
         android:id="@+id/signupButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:text="Sign Up"
-        android:backgroundTint="@android:color/holo_blue_dark"
-        android:textColor="@android:color/white"
         android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/weightEditText"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/inputsCard"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
+    <!-- Already have account link -->
     <TextView
         android:id="@+id/alreadyHaveAccount"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Already have an account?"
-        android:textColor="@android:color/black"
-        android:textSize="16sp"
-        android:clickable="true"
-        android:focusable="true"/>
+        android:text="Already have an account? Log in"
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/signupButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

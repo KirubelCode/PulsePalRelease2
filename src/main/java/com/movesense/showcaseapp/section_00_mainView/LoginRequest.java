@@ -13,7 +13,7 @@ public class LoginRequest {
         this.password = password;
     }
 
-    // Optional: add getters if needed
+
     public String getEmail() { return email; }
     public String getPassword() { return password; }
 

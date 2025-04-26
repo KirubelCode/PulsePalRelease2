@@ -19,9 +19,9 @@ import java.lang.Override;
 public class AngularVelocityActivity_ViewBinding implements Unbinder {
   private AngularVelocityActivity target;
 
-  private View view7f08014d;
+  private View view7f090237;
 
-  private View view7f080140;
+  private View view7f09021e;
 
   @UiThread
   public AngularVelocityActivity_ViewBinding(AngularVelocityActivity target) {
@@ -37,7 +37,7 @@ public class AngularVelocityActivity_ViewBinding implements Unbinder {
     target.mConnectedDeviceSwVersionTextView = Utils.findRequiredViewAsType(source, R.id.connected_device_swVersion_textView, "field 'mConnectedDeviceSwVersionTextView'", TextView.class);
     view = Utils.findRequiredView(source, R.id.switchSubscription, "field 'switchSubscription' and method 'onCheckedChanged'");
     target.switchSubscription = Utils.castView(view, R.id.switchSubscription, "field 'switchSubscription'", SwitchCompat.class);
-    view7f08014d = view;
+    view7f090237 = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -46,7 +46,7 @@ public class AngularVelocityActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.spinner, "field 'spinner' and method 'onItemSelected'");
     target.spinner = Utils.castView(view, R.id.spinner, "field 'spinner'", Spinner.class);
-    view7f080140 = view;
+    view7f09021e = view;
     ((AdapterView<?>) view).setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
       @Override
       public void onItemSelected(AdapterView<?> p0, View p1, int p2, long p3) {
@@ -79,9 +79,9 @@ public class AngularVelocityActivity_ViewBinding implements Unbinder {
     target.zAxisTextView = null;
     target.mChart = null;
 
-    ((CompoundButton) view7f08014d).setOnCheckedChangeListener(null);
-    view7f08014d = null;
-    ((AdapterView<?>) view7f080140).setOnItemSelectedListener(null);
-    view7f080140 = null;
+    ((CompoundButton) view7f090237).setOnCheckedChangeListener(null);
+    view7f090237 = null;
+    ((AdapterView<?>) view7f09021e).setOnItemSelectedListener(null);
+    view7f09021e = null;
   }
 }

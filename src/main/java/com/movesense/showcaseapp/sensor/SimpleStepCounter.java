@@ -15,7 +15,7 @@ public class SimpleStepCounter {
     private int stepCount = 0;
     private long lastStepTime = 0;
 
-    // Personalized stride length (in meters)
+    // Personalised stride length (in meters)
     private float strideLength = 0.75f;
 
     // Low-pass filter state

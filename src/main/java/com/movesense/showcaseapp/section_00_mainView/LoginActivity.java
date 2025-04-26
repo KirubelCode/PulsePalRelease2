@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button loginButton;
     private TextView signUpText;
 
-    private static final String BASE_URL = "http://192.168.0.179/";  //  WAMP server IP
+    private static final String BASE_URL = "http://192.168.0.125/";  //  WAMP server IP
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +67,8 @@ public class LoginActivity extends AppCompatActivity {
                 if (response.isSuccessful() && response.body() != null && response.body().isSuccess()) {
                     Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
 
-                    User user = response.body().getUser();
+
+                    User user = response.body().getUser(); // Retrieve authenticated user from the server response
 
                     SharedPreferences sharedPreferences = getSharedPreferences("PulsePalPrefs", MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPreferences.edit();

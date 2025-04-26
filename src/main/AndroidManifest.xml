@@ -23,6 +23,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:usesPermissionFlags="neverForLocation"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
 
@@ -50,13 +51,26 @@
             android:name=".section_00_mainView.LoginActivity"
             android:exported="true" />
 
+        <activity android:name=".section_00_mainView.WorkoutResultsActivity"
+            android:label="Workout Results"
+            android:theme="@style/AppTheme"
+            android:exported="true"/>
+
+
         <!-- Main Dashboard -->
         <activity
             android:name=".section_00_mainView.MainViewActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
 
-        <activity android:name=".section_00_mainView.ExerciseSessionActivity" />
+        <activity
+            android:name=".section_00_mainView.ExerciseSessionActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="unspecified" />
+
+        <activity android:name=".section_00_mainView.GoalTrackActivity" />
+
+        <activity android:name=".section_00_mainView.SettingsActivity" />
 
         <!-- Movesense Sensor Connection -->
         <activity
@@ -158,5 +172,6 @@
         <activity android:name=".BaseActivity"/>
 
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -10,73 +10,86 @@
     <!-- Title -->
     <TextView
         android:id="@+id/loginTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Welcome to PulsePal"
         android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="40dp" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
-    <!-- Email Input -->
-    <EditText
-        android:id="@+id/emailEditText"
+    <!-- Card container for inputs -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/inputsCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:padding="12dp"
-        android:background="@android:color/darker_gray"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:strokeColor="@android:color/holo_blue_dark"
+        app:strokeWidth="2dp"
+        app:cardUseCompatPadding="true"
         app:layout_constraintTop_toBottomOf="@id/loginTitle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
+        app:layout_constraintEnd_toEndOf="parent">
 
-    <!-- Password Input -->
-    <EditText
-        android:id="@+id/passwordEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintTop_toBottomOf="@id/emailEditText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="@android:color/darker_gray"
+                android:padding="12dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"/>
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:backgroundTint="@android:color/darker_gray"
+                android:padding="12dp"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
     <!-- Login Button -->
     <Button
         android:id="@+id/loginButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:text="Login"
+        android:textSize="16sp"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/passwordEditText"
+        app:layout_constraintTop_toBottomOf="@id/inputsCard"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
-    <!-- Sign Up Text -->
+    <!-- Sign Up Link -->
     <TextView
         android:id="@+id/signUpText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Don't have an account? Sign Up"
         android:textSize="14sp"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@android:color/holo_red_light"
         app:layout_constraintTop_toBottomOf="@id/loginButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

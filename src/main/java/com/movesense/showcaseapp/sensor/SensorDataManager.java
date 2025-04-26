@@ -88,6 +88,15 @@ public class SensorDataManager {
         return stepDataSubject;
     }
 
+
+    public int getLatestStepCount() {
+        return simpleStepCounter.getStepCount();
+    }
+
+    public float getLatestDistance() {
+        return simpleStepCounter.getDistance();
+    }
+
     public void setUserStrideLength(float strideLength) {
         simpleStepCounter.setStrideLength(strideLength);
     }

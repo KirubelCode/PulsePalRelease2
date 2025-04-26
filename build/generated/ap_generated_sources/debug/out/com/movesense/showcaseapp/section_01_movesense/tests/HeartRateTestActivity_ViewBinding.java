@@ -16,7 +16,7 @@ import java.lang.Override;
 public class HeartRateTestActivity_ViewBinding implements Unbinder {
   private HeartRateTestActivity target;
 
-  private View view7f0800a4;
+  private View view7f0900fe;
 
   @UiThread
   public HeartRateTestActivity_ViewBinding(HeartRateTestActivity target) {
@@ -34,7 +34,7 @@ public class HeartRateTestActivity_ViewBinding implements Unbinder {
     target.mHeartRateBpmValueTextView = Utils.findRequiredViewAsType(source, R.id.heart_rate_bpm_value_textView, "field 'mHeartRateBpmValueTextView'", TextView.class);
     view = Utils.findRequiredView(source, R.id.heart_rate_switch, "field 'heartRateSwitch' and method 'onCheckedChange'");
     target.heartRateSwitch = Utils.castView(view, R.id.heart_rate_switch, "field 'heartRateSwitch'", SwitchCompat.class);
-    view7f0800a4 = view;
+    view7f0900fe = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -56,7 +56,7 @@ public class HeartRateTestActivity_ViewBinding implements Unbinder {
     target.mHeartRateBpmValueTextView = null;
     target.heartRateSwitch = null;
 
-    ((CompoundButton) view7f0800a4).setOnCheckedChangeListener(null);
-    view7f0800a4 = null;
+    ((CompoundButton) view7f0900fe).setOnCheckedChangeListener(null);
+    view7f0900fe = null;
   }
 }

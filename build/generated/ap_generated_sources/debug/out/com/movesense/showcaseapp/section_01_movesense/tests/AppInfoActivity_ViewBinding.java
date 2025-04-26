@@ -16,7 +16,7 @@ import java.lang.Override;
 public class AppInfoActivity_ViewBinding implements Unbinder {
   private AppInfoActivity target;
 
-  private View view7f08004c;
+  private View view7f090060;
 
   @UiThread
   public AppInfoActivity_ViewBinding(AppInfoActivity target) {
@@ -33,7 +33,7 @@ public class AppInfoActivity_ViewBinding implements Unbinder {
     target.mSensorListAppInfoCompanyTv = Utils.findRequiredViewAsType(source, R.id.sensorList_appInfo_company_tv, "field 'mSensorListAppInfoCompanyTv'", TextView.class);
     view = Utils.findRequiredView(source, R.id.buttonGet, "field 'mButtonGet' and method 'onViewClicked'");
     target.mButtonGet = Utils.castView(view, R.id.buttonGet, "field 'mButtonGet'", Button.class);
-    view7f08004c = view;
+    view7f090060 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +54,7 @@ public class AppInfoActivity_ViewBinding implements Unbinder {
     target.mSensorListAppInfoCompanyTv = null;
     target.mButtonGet = null;
 
-    view7f08004c.setOnClickListener(null);
-    view7f08004c = null;
+    view7f090060.setOnClickListener(null);
+    view7f090060 = null;
   }
 }

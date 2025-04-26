@@ -1,19 +1,26 @@
 <resources>
-
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+
+
         <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
-        <item name="android:windowDisablePreview">true</item>
         <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+
+
+        <item name="android:windowDisablePreview">true</item>
+
+        <!-- Enable Material Chips to inflate -->
+        <item name="chipStyle">@style/Widget.MaterialComponents.Chip.Choice</item>
     </style>
 
     <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
         <item name="overlapAnchor">false</item>
     </style>
-
 
     <style name="SwitchStyle" parent="Widget.AppCompat.CompoundButton.Switch">
         <item name="trackTint">#FFF</item>
@@ -23,6 +30,6 @@
     <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
         <item name="android:src">@android:drawable/ic_menu_preferences</item>
         <item name="android:background">?android:attr/actionBarItemBackground</item>
-        <item name="android:contentDescription">"Settings"</item>
+        <item name="android:contentDescription">\"Settings\"</item>
     </style>
 </resources>
