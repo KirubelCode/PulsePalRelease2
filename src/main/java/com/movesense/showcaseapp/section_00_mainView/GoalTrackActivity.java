@@ -32,7 +32,7 @@ public class GoalTrackActivity extends AppCompatActivity {
 
         // initialise API client
         apiService = new Retrofit.Builder()
-                .baseUrl("http://192.168.0.125/")
+                .baseUrl("https://pulsepal.store/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(ApiService.class);

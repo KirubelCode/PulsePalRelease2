@@ -9,43 +9,43 @@ import retrofit2.http.POST;
 
 public interface ApiService {
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/signup.php")
+    @POST("signup.php")
     Call<ResponseModel> signup(@Body User user);
 
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/login.php")
+    @POST("login.php")
     Call<ResponseModel> login(@Body LoginRequest loginRequest);
 
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/createSession.php")
+    @POST("createSession.php")
     Call<ResponseModel> createSession(@Body CreateSessionRequest request);
 
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/insertDataPoint.php")
+    @POST("insertDataPoint.php")
     Call<ResponseModel> insertDataPoint(@Body DataPointRequest request);
 
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/finalizeSession.php")
+    @POST("finalizeSession.php")
     Call<ResponseModel> finalizeSession(@Body FinalizeSessionRequest request);
 
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/getSessionDataPoints.php")
+    @POST("getSessionDataPoints.php")
     Call<SessionDataResponse> getSessionDataPoints(@Body SessionDataRequest request);
 
 
-    @POST("pulsepal/getSessions.php")
+    @POST("getSessions.php")
     Call<SessionListResponse> getSessions(@Body UserRequest request);
 
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/update_user.php")
+    @POST("update_user.php")
     Call<ResponseModel> updateUser(@Body UpdateUserRequest user);
 
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/createGoal.php")
+    @POST("createGoal.php")
     Call<ResponseModel> createGoal(@Body CreateGoalRequest req);
 
     @Headers("Content-Type: application/json")
-    @POST("pulsepal/getSessionGoals.php")
+    @POST("getSessionGoals.php")
     Call<GoalsResponse> getSessionGoals(@Body JsonObject sessionIdJson);
 
 

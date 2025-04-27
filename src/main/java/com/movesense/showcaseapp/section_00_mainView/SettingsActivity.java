@@ -21,7 +21,7 @@ public class SettingsActivity extends AppCompatActivity {
     private Spinner genderSp;
     private Button saveBtn;
 
-    private static final String BASE_URL = "http://192.168.0.125/";
+    private static final String BASE_URL = "https://pulsepal.store/";
     private ApiService apiService;
 
     @Override

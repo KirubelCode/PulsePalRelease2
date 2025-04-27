@@ -95,7 +95,7 @@ public class WorkoutResultsActivity extends AppCompatActivity {
 
         // Retrofit setup
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.0.125/")
+                .baseUrl("https://pulsepal.store/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         apiService = retrofit.create(ApiService.class);

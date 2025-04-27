@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button loginButton;
     private TextView signUpText;
 
-    private static final String BASE_URL = "http://192.168.0.125/";  //  WAMP server IP
+    private static final String BASE_URL = "https://pulsepal.store/";  //  server IP
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

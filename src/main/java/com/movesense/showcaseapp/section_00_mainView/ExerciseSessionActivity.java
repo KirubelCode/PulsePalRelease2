@@ -41,7 +41,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ExerciseSessionActivity extends AppCompatActivity {
     private static final String TAG = "ExerciseSessionActivity";
-    private static final String BASE_URL = "http://192.168.0.125/";
+    private static final String BASE_URL = "https://pulsepal.store/";
 
     // UI elements
     private TextView heartRateDisplay, stepCountDisplay, distanceDisplay, paceDisplay, caloriesDisplay;

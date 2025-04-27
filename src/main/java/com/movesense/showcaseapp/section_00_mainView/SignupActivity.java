@@ -24,7 +24,7 @@ public class SignupActivity extends AppCompatActivity {
     private Button signupButton;
     private TextView alreadyHaveAccount;
 
-    private static final String BASE_URL = "http://192.168.0.125/";
+    private static final String BASE_URL = "https://pulsepal.store/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
