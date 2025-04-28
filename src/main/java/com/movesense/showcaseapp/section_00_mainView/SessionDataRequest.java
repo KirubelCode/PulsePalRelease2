@@ -1,3 +1,9 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: Layout for java level session id to be linked to the backend session id.
+
 package com.movesense.showcaseapp.section_00_mainView;
 
 import com.google.gson.annotations.SerializedName;

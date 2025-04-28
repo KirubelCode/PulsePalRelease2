@@ -1,0 +1,352 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3// Modified By: Kirubel Temesgen
+4// Student ID: C00260396
+5// Institution: SETU Carlow
+6// Supervisor: Joeseph Kehoe
+7// Purpose: To add permissions and requests to user phone.
+8-->
+9<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+10    package="com.movesense.showcaseapp"
+11    android:versionCode="1091901"
+12    android:versionName="1.9.19" >
+13
+14    <uses-sdk
+15        android:minSdkVersion="21"
+16        android:targetSdkVersion="34" />
+17
+18    <queries>
+18-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:12:5-18:15
+19
+20        <!-- File browser -->
+21        <intent>
+21-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:14:9-17:18
+22            <action android:name="android.intent.action.GET_CONTENT" />
+22-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:15:13-72
+22-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:15:21-69
+23
+24            <data android:mimeType="application/zip" />
+24-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:16:13-56
+24-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:16:19-53
+25        </intent>
+26    </queries>
+27
+28    <!-- Permissions -->
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+29-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:21:5-80
+29-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:21:22-78
+30    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+30-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:22:5-79
+30-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:22:22-77
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:23:5-66
+31-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:23:22-64
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:24:5-78
+32-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:24:22-76
+33    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+33-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:25:5-70
+33-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:25:22-68
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:26:5-76
+34-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:26:22-74
+35    <uses-permission
+35-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:5-68
+36        android:name="android.permission.BLUETOOTH"
+36-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:27:22-65
+37        android:maxSdkVersion="30" />
+37-->[no.nordicsemi.android:dfu:2.9.0] C:\Users\kirut\.gradle\caches\transforms-3\2765eb1c6223f65a0d693d2182325304\transformed\jetified-dfu-2.9.0\AndroidManifest.xml:22:9-35
+38    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+38-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:28:5-73
+38-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:28:22-70
+39    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+39-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:29:5-76
+39-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:29:22-73
+40    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+40-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:30:5-81
+40-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:30:22-78
+41    <uses-permission
+41-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:31:5-125
+42        android:name="android.permission.ACCESS_FINE_LOCATION"
+42-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:31:22-76
+43        android:usesPermissionFlags="neverForLocation" />
+43-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:31:77-123
+44    <uses-permission
+44-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:32:5-101
+45        android:name="android.permission.BLUETOOTH_ADMIN"
+45-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:32:22-71
+46        android:maxSdkVersion="30" />
+46-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:32:72-98
+47    <uses-permission android:name="android.permission.WAKE_LOCK" />
+47-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:33:5-67
+47-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:33:22-65
+48
+49    <uses-feature
+49-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:35:5-89
+50        android:name="android.hardware.bluetooth_le"
+50-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:35:19-63
+51        android:required="true" />
+51-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:35:64-87
+52
+53    <uses-permission android:name="android.permission.INTERNET" />
+53-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:23:5-66
+53-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:23:22-64
+54
+55    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+55-->[com.polidea.rxandroidble2:rxandroidble:1.10.2] C:\Users\kirut\.gradle\caches\transforms-3\16e6216b4b2d4a001234eded65254192\transformed\jetified-rxandroidble-1.10.2\AndroidManifest.xml:14:5-88
+55-->[com.polidea.rxandroidble2:rxandroidble:1.10.2] C:\Users\kirut\.gradle\caches\transforms-3\16e6216b4b2d4a001234eded65254192\transformed\jetified-rxandroidble-1.10.2\AndroidManifest.xml:14:29-85
+56
+57    <permission
+57-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+58        android:name="com.movesense.showcaseapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.movesense.showcaseapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+62
+63    <application
+63-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:37:5-110:19
+64        android:name="com.movesense.showcaseapp.SampleApp"
+64-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:38:9-34
+65        android:allowBackup="true"
+65-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:39:9-35
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.13.0] C:\Users\kirut\.gradle\caches\transforms-3\534c383d262480fc9777e4b4200ab380\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+67        android:extractNativeLibs="true"
+68        android:icon="@mipmap/ic_launcher"
+68-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:40:9-43
+69        android:label="@string/app_name"
+69-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:41:9-41
+70        android:supportsRtl="true"
+70-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:42:9-35
+71        android:theme="@style/AppTheme"
+71-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:43:9-40
+72        android:usesCleartextTraffic="true" > <!-- Ensures HTTP connections work -->
+72-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:44:9-44
+73
+74
+75        <!-- Signup Activity (Launcher) -->
+76        <activity
+76-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:47:9-54:20
+77            android:name="com.movesense.showcaseapp.section_00_mainView.SignupActivity"
+77-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:48:13-63
+78            android:exported="true" >
+78-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:49:13-36
+79            <intent-filter>
+79-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:50:13-53:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:51:17-69
+80-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:51:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:52:17-77
+82-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:52:27-74
+83            </intent-filter>
+84        </activity>
+85
+86        <!-- Login Activity -->
+87        <activity
+87-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:57:9-59:39
+88            android:name="com.movesense.showcaseapp.section_00_mainView.LoginActivity"
+88-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:58:13-62
+89            android:exported="true" />
+89-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:59:13-36
+90        <activity
+90-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:61:9-64:38
+91            android:name="com.movesense.showcaseapp.section_00_mainView.WorkoutResultsActivity"
+91-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:61:19-77
+92            android:exported="true"
+92-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:64:13-36
+93            android:label="Workout Results"
+93-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:62:13-44
+94            android:theme="@style/AppTheme" />
+94-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:63:13-44
+95
+96        <!-- Main Dashboard -->
+97        <activity
+97-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:68:9-71:52
+98            android:name="com.movesense.showcaseapp.section_00_mainView.MainViewActivity"
+98-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:69:13-65
+99            android:exported="true"
+99-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:70:13-36
+100            android:screenOrientation="portrait" />
+100-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:71:13-49
+101        <activity
+101-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:73:9-76:55
+102            android:name="com.movesense.showcaseapp.section_00_mainView.ExerciseSessionActivity"
+102-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:74:13-72
+103            android:configChanges="orientation|screenSize"
+103-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:75:13-59
+104            android:screenOrientation="unspecified" />
+104-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:76:13-52
+105        <activity android:name="com.movesense.showcaseapp.section_00_mainView.GoalTrackActivity" />
+105-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:78:9-75
+105-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:78:19-72
+106        <activity android:name="com.movesense.showcaseapp.section_00_mainView.SettingsActivity" />
+106-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:80:9-74
+106-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:80:19-71
+107
+108        <!-- Movesense Sensor Connection -->
+109        <activity
+109-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:83:9-85:51
+110            android:name="com.movesense.showcaseapp.section_01_movesense.MovesenseActivity"
+110-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:84:13-67
+111            android:screenOrientation="portrait" />
+111-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:85:13-49
+112
+113        <!-- Bluetooth & Device Services -->
+114        <receiver
+114-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:89:9-96:20
+115            android:name="com.movesense.showcaseapp.bluetooth.BluetoothStatusReceiver"
+115-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:90:13-62
+116            android:enabled="true"
+116-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:91:13-35
+117            android:exported="false" >
+117-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:92:13-37
+118            <intent-filter>
+118-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:93:13-95:29
+119                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+119-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:94:17-88
+119-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:94:25-86
+120            </intent-filter>
+121        </receiver>
+122        <receiver
+122-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:98:9-105:20
+123            android:name="com.movesense.showcaseapp.adb.AdbBridge"
+123-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:99:13-42
+124            android:enabled="true"
+124-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:100:13-35
+125            android:exported="true" >
+125-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:101:13-36
+126            <intent-filter>
+126-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:102:13-104:29
+127                <action android:name="android.intent.action.MOVESENSE" />
+127-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:103:17-73
+127-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:103:25-71
+128            </intent-filter>
+129        </receiver>
+130
+131        <!-- Base Activity -->
+132        <activity android:name="com.movesense.showcaseapp.BaseActivity" />
+132-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:108:9-49
+132-->D:\college\PulsePalV1\Project2025\src\main\AndroidManifest.xml:108:19-47
+133        <activity
+133-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+134            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+134-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+135            android:exported="false"
+135-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+136            android:label=""
+136-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+137            android:theme="@style/EasyPermissions.Transparent" />
+137-->[pub.devrel:easypermissions:3.0.0] C:\Users\kirut\.gradle\caches\transforms-3\e8056acd89f336dc43a3ccd2fe1e0d6b\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+138        <activity
+138-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+139            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+139-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+140            android:excludeFromRecents="true"
+140-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+142-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+143        <!--
+144            Service handling Google Sign-In user revocation. For apps that do not integrate with
+145            Google Sign-In, this service will never be started.
+146        -->
+147        <service
+147-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+148            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+148-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+149            android:exported="true"
+149-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+150            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+150-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\ef0275ac7f2b7c98e0ac333be599d259\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+151
+152        <activity
+152-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\74c1da55e4797de5b2c06f0c9bbe0749\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kirut\.gradle\caches\transforms-3\408477201caec56acb30a509eba0f621\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+160
+161        <provider
+161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+162            android:name="androidx.startup.InitializationProvider"
+162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+163            android:authorities="com.movesense.showcaseapp.androidx-startup"
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+164            android:exported="false" >
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+165            <meta-data
+165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+166                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+167                android:value="androidx.startup" />
+167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kirut\.gradle\caches\transforms-3\077b161e38653601e37573ee8340b0be\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+168            <meta-data
+168-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\kirut\.gradle\caches\transforms-3\1ad79fc8e6cd77e71a8b4e59b3247a78\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+169                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+169-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\kirut\.gradle\caches\transforms-3\1ad79fc8e6cd77e71a8b4e59b3247a78\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+170                android:value="androidx.startup" />
+170-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\kirut\.gradle\caches\transforms-3\1ad79fc8e6cd77e71a8b4e59b3247a78\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+171            <meta-data
+171-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+172                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+173                android:value="androidx.startup" />
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+174        </provider>
+175
+176        <receiver
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+177            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+177-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+178            android:directBootAware="false"
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+179            android:enabled="true"
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+180            android:exported="true"
+180-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+181            android:permission="android.permission.DUMP" >
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+182            <intent-filter>
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+183                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+183-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+183-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+184            </intent-filter>
+185            <intent-filter>
+185-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+186                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+186-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+186-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+187            </intent-filter>
+188            <intent-filter>
+188-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+189                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+189-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+189-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+190            </intent-filter>
+191            <intent-filter>
+191-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+192                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+192-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+192-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kirut\.gradle\caches\transforms-3\254c32500b175428377ce44c24396c3f\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+193            </intent-filter>
+194        </receiver>
+195    </application>
+196
+197</manifest>

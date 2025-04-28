@@ -14,7 +14,7 @@ import java.lang.IllegalStateException;
 import java.lang.Override;
 
 public class DfuActivity2_ViewBinding implements Unbinder {
-  private DfuActivity2 target;
+
 
   private View view7f0900a8;
 

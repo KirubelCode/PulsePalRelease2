@@ -1,3 +1,9 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: Used to calculate + retrieve steps and distance based off linear acceleration.
+
 package com.movesense.showcaseapp.sensor;
 
 public class SimpleStepCounter {

@@ -1,3 +1,10 @@
+<!--
+// Modified By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: To items and preferences to the xml.
+-->
 <resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">

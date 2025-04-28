@@ -1,3 +1,11 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: Visually display session data points on a graph and
+// allows a user to select the session they wish to analyse and the variables they wish to see.
+// Also this notes any goals which may have been defined previously in the exercise session.
+
 package com.movesense.showcaseapp.section_00_mainView;
 
 import android.content.SharedPreferences;

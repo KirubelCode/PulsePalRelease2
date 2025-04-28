@@ -1,3 +1,9 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: Simple model to retrieve a user and the corresponding session id if needed.
+
 package com.movesense.showcaseapp.section_00_mainView;
 
 public class ResponseModel {

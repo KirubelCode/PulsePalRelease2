@@ -1,3 +1,9 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: An integral part of the app - Layout for User objects.
+
 package com.movesense.showcaseapp.section_00_mainView;
 
 public class User {

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.movesense.showcaseapp",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1091901,
+      "versionName": "1.9.19",
+      "outputFile": "ShowcaseApp-1.9.19-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

@@ -34,7 +34,6 @@ import com.movesense.showcaseapp.model.MdsDeviceInfoNewSw;
 import com.movesense.showcaseapp.model.MdsDeviceInfoOldSw;
 import com.movesense.showcaseapp.model.RxBleDeviceWrapper;
 import com.movesense.showcaseapp.section_00_mainView.MainViewActivity;
-import com.movesense.showcaseapp.section_01_movesense.sensors.sensors_list.SensorListActivity;
 import com.movesense.showcaseapp.utils.ThrowableToastingAction;
 import com.polidea.rxandroidble2.RxBleDevice;
 import com.polidea.rxandroidble2.RxBleScanResult;

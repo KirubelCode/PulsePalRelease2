@@ -1,3 +1,10 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: Integral part ~ used to ensure a smooth data flow between sensor connection and data subscriptions
+// throughout the app and while not in app directly.
+
 package com.movesense.showcaseapp.sensor;
 
 import com.google.gson.Gson;
@@ -23,6 +30,7 @@ public class SensorDataManager {
     // Flag indicating if an exercise session is active.
     private boolean exerciseActive = false;
 
+    // Singleton used to safely stay connected in the session globally(accessible)
     public static SensorDataManager getInstance(){
         if(instance == null) instance = new SensorDataManager();
         return instance;

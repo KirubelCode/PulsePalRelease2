@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+// Modified By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: To add permissions and requests to user phone.
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.movesense.showcaseapp">
 
@@ -77,77 +84,6 @@
             android:name=".section_01_movesense.MovesenseActivity"
             android:screenOrientation="portrait"/>
 
-        <!-- Movesense Sensor Data & Tests -->
-        <activity android:name=".section_01_movesense.tests.LedTestActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".section_01_movesense.tests.LinearAccelerationTestActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".section_01_movesense.tests.HeartRateTestActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".section_01_movesense.tests.TemperatureTestActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".section_01_movesense.tests.MagneticFieldTestActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".section_01_movesense.tests.AngularVelocityActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".section_01_movesense.tests.MultiSubscribeActivity" android:screenOrientation="portrait"/>
-
-        <!-- Multi Sensor Connection -->
-        <activity
-            android:name=".section_02_multi_connection.connection.MultiConnectionActivity"
-            android:screenOrientation="portrait"/>
-
-        <!-- Movesense Data Storage & Logs -->
-        <activity
-            android:name=".google_drive.SendLogsToGoogleDriveActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_04_saved_data.SavedDataActivity"
-            android:screenOrientation="portrait"/>
-
-        <!-- Device Firmware Update -->
-        <activity
-            android:name=".section_03_dfu.DfuActivity2"
-            android:screenOrientation="portrait"/>
-        <service
-            android:name=".section_03_dfu.DfuService"
-            android:enabled="true"
-            android:exported="true"
-            android:foregroundServiceType="connectedDevice"/>
-
-        <!-- About Page -->
-        <activity
-            android:name=".section_06_about.AboutActivity"
-            android:screenOrientation="portrait"/>
-
-        <!-- Sensor List -->
-        <activity
-            android:name=".section_01_movesense.sensors.sensors_list.SensorListActivity"
-            android:screenOrientation="portrait"/>
-
-        <!-- Multi Sensor Usage -->
-        <activity
-            android:name=".section_02_multi_connection.sensor_usage.MultiSensorUsageActivity"
-            android:screenOrientation="portrait"/>
-
-        <!-- Movesense ECG & Battery -->
-        <activity
-            android:name=".section_01_movesense.tests.EcgActivity"
-            android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden|orientation|screenSize"/>
-        <activity
-            android:name=".section_01_movesense.tests.BatteryActivity"
-            android:screenOrientation="portrait"/>
-
-        <!-- Movesense Device Info -->
-        <activity
-            android:name=".section_01_movesense.tests.AppInfoActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.tests.ImuActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".section_01_movesense.tests.MemoryDiagnosticActivity"
-            android:screenOrientation="portrait"/>
-
-        <!-- Movesense Device Settings -->
-        <activity
-            android:name=".section_01_movesense.device_settings.DeviceSettingsActivity"
-            android:screenOrientation="portrait"/>
 
         <!-- Bluetooth & Device Services -->
         <receiver

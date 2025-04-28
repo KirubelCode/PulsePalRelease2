@@ -1,3 +1,9 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: Layout for goal requests.
+
 package com.movesense.showcaseapp.section_00_mainView;
 
 // Goal Retrieval class

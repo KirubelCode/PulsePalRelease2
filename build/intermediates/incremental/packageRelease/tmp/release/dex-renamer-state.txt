@@ -1,0 +1,7 @@
+#Mon Apr 28 15:50:13 IST 2025
+base.0=D\:\\college\\PulsePalV1\\Project2025\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+base.1=D\:\\college\\PulsePalV1\\Project2025\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

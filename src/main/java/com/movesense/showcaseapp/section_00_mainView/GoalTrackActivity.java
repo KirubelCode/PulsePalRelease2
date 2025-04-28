@@ -1,3 +1,9 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: Allows user to set and save a goal based off the exercise session id.
+
 package com.movesense.showcaseapp.section_00_mainView;
 
 import android.os.Bundle;

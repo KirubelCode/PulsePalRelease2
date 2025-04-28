@@ -1,3 +1,9 @@
+// Prepared By: Kirubel Temesgen
+// Student ID: C00260396
+// Institution: SETU Carlow
+// Supervisor: Joeseph Kehoe
+// Purpose: Main Exercise session page designed to give user live insights into their performance throughout a session.
+
 package com.movesense.showcaseapp.section_00_mainView;
 
 import android.content.Context;

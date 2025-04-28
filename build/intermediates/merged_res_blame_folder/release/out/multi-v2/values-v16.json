@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.movesense.showcaseapp-mergeReleaseResources-37:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kirut\\.gradle\\caches\\transforms-3\\5a714084f5b2023ec8f245bde834412c\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}
