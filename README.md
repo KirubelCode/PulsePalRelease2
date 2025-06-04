@@ -31,6 +31,8 @@ Technologies Used
 
 - Hosted Web APK – Deployed at pulsepal.store for easy access.
 
+
+
 Repository Overview
 /src/ – Android app source code and layouts
 
@@ -39,6 +41,8 @@ Repository Overview
 /release/ – APK and deployment assets
 
 /Project Report/ – Full project documentation (PDF)
+
+
 
 Why I Built This
 I’ve always been passionate about fitness and tech. I wanted to build something beyond step counters — something using real, accurate physiological data. 
