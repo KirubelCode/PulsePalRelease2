@@ -18,6 +18,8 @@ Key Features
 
 - Clean, Intuitive UI: Mobile-optimized interface with real-time graphs and colored HR zones.
 
+----
+
 Technologies Used
 - Android (Java) – Mobile client with sensor UI and activity flow.
 
@@ -31,7 +33,7 @@ Technologies Used
 
 - Hosted Web APK – Deployed at pulsepal.store for easy access.
 
-
+-----
 
 Repository Overview
 /src/ – Android app source code and layouts
@@ -42,7 +44,7 @@ Repository Overview
 
 /Project Report/ – Full project documentation (PDF)
 
-
+------
 
 Why I Built This
 I’ve always been passionate about fitness and tech. I wanted to build something beyond step counters — something using real, accurate physiological data. 
