@@ -46,11 +46,10 @@ Repository Overview
 
 ------
 
-Why I Built This
-I’ve always been passionate about fitness and tech. I wanted to build something beyond step counters — something using real, accurate physiological data. 
-PulsePal bridges IoT and mobile development by turning real ECG signals into actionable insights, all wrapped in a user-friendly app. 
-This project helped me grow as a full-stack developer and showed me what’s possible when software meets real-world sensors.
------
+Why I Built This I’ve always been passionate about fitness and tech. I wanted to build something beyond step counters — something using real, accurate physiological data. PulsePal bridges IoT and mobile development by turning real ECG signals into actionable insights, all wrapped in a user-friendly app. This project helped me grow as a full-stack developer and showed me what’s possible when software meets real-world sensors. 
+
+----
+
 What Makes PulsePal Different - Future Changes and Enhancements
 Very-Fast Sensor Data – Retrieves real-time sensor data (especially linear acceleration) with <500ms latency, 
 thanks to direct integration with Movesense and efficient implementation using Android Jetpack. 
